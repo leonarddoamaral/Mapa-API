@@ -437,6 +437,7 @@ const valeDoParaibaVector = new ol.layer.Vector({
         src: "img/localiza-vale-do-paraiba.png",
         scale: 0.1,
         anchor: [0.5, 1]
+        
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -464,6 +465,11 @@ const baseLayer = new ol.layer.Tile({
 
 const map = new ol.Map({
   target: 'web-map',
+  controls: [
+    new ol.control.Zoom(),
+    new ol.control.Attribution(),
+    new ol.control.FullScreen()
+  ],
   layers: [baseLayer, 
     spVector,aracatubaVector,
     araraquaraVector,bauruVector,
@@ -480,5 +486,4 @@ const map = new ol.Map({
     zoom: 7.47
       })
 });
-
 
