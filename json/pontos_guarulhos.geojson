@@ -18,7 +18,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS GUARULHOS",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "http://www-sdc/resultadoUO2.asp?coduorg=21025010"
       },
       "geometry": {
         "type": "Point",
