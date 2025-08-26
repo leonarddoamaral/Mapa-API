@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEX GUARULHOS",
+        "type": "GEX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.536367,	-23.480582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS GUARULHOS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.555143,	-23.485999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS MOGI DAS CRUZES",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.186971,	-23.519138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SUZANO",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.306812,	-23.535987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS ITAQUAQUECETUBA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.350102,	-23.476114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS BIRITIBA-MIRIM",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.040387,-23.579815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS ARUJÁ",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.320031,-23.392543
+        ]
+      }
+    }
+  ]
+}

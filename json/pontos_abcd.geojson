@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEX ABCD",
+        "type": "GEX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.538797,-23.65917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS DIADEMA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         		-46.613158,-23.685911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO BERNARDO DO CAMPO",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.555787,-23.704102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS MAUÁ",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.462368,-23.665446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS RIBEIRÃO PIRES",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.409944,	-23.717845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SANTO ANDRÉ/SP",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.538885,	-23.659137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO CAETANO DO SUL",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.575799,	-23.615291
+        ]
+      }
+    }
+  ]
+}

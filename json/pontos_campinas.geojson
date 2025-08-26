@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEX CAMPINAS",
+        "type": "GEX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-47.060639,	-22.901441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS AMERICANA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         		-47.33128,-22.7374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS CAMPINAS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         		-47.0607,-22.90138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS INDAIATUBA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-47.22321,-23.09616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS PEDREIRA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.90374,-22.74204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SANTA BARBARA D OESTE",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-47.41524,-22.75203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SUMARÉ",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-47.26913,-22.82091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS VALINHOS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-46.99684,-22.97593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS CAMPINAS - AMOREIRAS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-47.08063,-22.92461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS COSMÓPOLIS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-47.19831,-22.64457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS DIGITAL CAMPINAS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-47.06108158510431,-22.900891303917188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS HORTOLÂNDIA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-47.20465,-22.86829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS NOVA ODESSA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-47.30187,-22.7866
+        ]
+      }
+    }
+  ]
+}

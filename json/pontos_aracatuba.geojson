@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEX ARAÇATUBA",
+        "type": "GEX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -50.43073575760656,-21.205461007413515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS ANDRADINA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-51.370582, -20.902364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS ARAÇATUBA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-50.430657, -21.205423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS BIRIGÜI",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-50.348215, -21.292923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS LINS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-49.7528545, -21.673665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS PENÁPOLIS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-50.081525, -21.424973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS ILHA SOLTEIRA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-51.338601, -20.432997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS MIRANDÓPOLIS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-51.102019, -21.132866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS PEREIRA BARRETO",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-51.111849, -20.649263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS GUARARAPES",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-50.641378, -21.254813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS PROMISSÃO",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-49.859559, -21.535156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS PIRAJUÍ",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-49.455939, -21.99637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS VALPARAÍSO",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         	-50.865218, -21.229008
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEX SÃO PAULO",
+        "type": "GEX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.64100424977104,-23.547450533389345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEX SÃO PAULO - NORTE",
+        "type": "GEX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.66667,-23.5303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEX SÃO PAULO - SUL",
+        "type": "GEX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          	-46.62947,-23.5972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "GEX SÃO PAULO - LESTE",
+        "type": "GEX"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          		-46.570272,-23.548135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - BRÁS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          		-46.611756,-23.540459
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - CENTRO",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          	-46.641022,	-23.547453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - GLICÉRIO",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          	-46.626338,	-23.557173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - ANHANGABAÚ",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          	-46.641085,	-23.547535
+        ]
+      }
+    }, 
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - MOOCA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          	-46.592104,	-23.554991
+        ]
+      }
+    },    
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS EMBU-GUAÇU",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          	-46.824365,	-23.838125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS CAIEIRAS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          	-46.742945,	-23.362983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS ATENDIMENTO ACORDOS INTERNACIONAIS SAO PAULO",
+        "type": "APSAI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          	-46.629415,	-23.596755
+        ]
+      }
+    },
+       {
+      "type": "Feature",
+      "properties": {
+        "name": "APS ITAPECERICA DA SERRA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.849635,	-23.707755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - ÁGUA BRANCA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.666755,	-23.530415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - ÁGUA RASA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.579504,	-23.554043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - ALTO DE SANTANA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.62588236456947, -23.499301483649546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - ARICANDUVA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.505092, -23.574171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - ATALIBA LEONEL",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.618187, -23.502514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - CIDADE DUTRA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.701166, -23.710126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - ERMELINO MATARAZZO",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.474922, -23.494848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - ITAQUERA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.447546, -23.534645
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - JABAQUARA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.645245, -23.647403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - LAPA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.703994, -23.517033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - NOSSA SENHORA DE SABARÁ",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.6861391031886,-23.674692093887614 
+        ]
+      }
+    },
+       {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - PENHA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.54956076978406,-23.515596806366922
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - PINHEIROS",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.69701033249744,-23.567924090938085
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - SANTO AMARO",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.70172962584376,-23.65109483610142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - SÃO MIGUEL PAULISTA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.436185,-23.495884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - TATUAPÉ",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.570287979851535,-23.548508089836144 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - VILA MARIA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.599429,	-23.531058 
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS SÃO PAULO - VILA MARIANA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.62974318722561,-23.596940204535336 
+        ]
+      }
+    },
+        {
+      "type": "Feature",
+      "properties": {
+        "name": "APS TABOÃO DA SERRA",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.769026,	-23.619864 
+        ]
+      }
+    },
+       {
+      "type": "Feature",
+      "properties": {
+        "name": "APS CEAB RECONHECIMENTO DE DIREITO DA SRI",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -46.63618969644642,-23.54189650191508
+        ]
+      }
+    },
+      {
+      "type": "Feature",
+      "properties": {
+        "name": "APS CEAB MANUTENÇÃO DA SR-I",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+             -46.63630234922412,-23.541812897114784
+        ]
+      }
+    },
+     {
+      "type": "Feature",
+      "properties": {
+        "name": "APS CEAB PARA ATENDIMENTO DE DEMANDAS JUDICIAIS DA SRI",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.63617695557939,-23.541723815031432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS CEAP SR-I",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.63610703632146,-23.541785847119147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "APS ATENDIMENTO ACORDOS INTERNACIONAIS SÃO PAULO D",
+        "type": "APS FIXA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          	-46.62930661656469,-23.596944179928734
+        ]
+      }
+    }
+  ]
+}
