@@ -483,7 +483,7 @@ const map = new ol.Map({
     sorocabaVector,valeDoParaibaVector],
   view: new ol.View({
     center: ol.proj.fromLonLat([-48.2500,-23.0833]),
-    zoom: 7.47
+    zoom: 7.44
       })
 });
 
