@@ -487,13 +487,13 @@ const map = new ol.Map({
     zoom: 7.47
       })
 });
-
+  //mouse em cima vira mãozinha
     map.on('pointermove', function(evt) {
     const pixel = map.getEventPixel(evt.originalEvent);
     const hit = map.hasFeatureAtPixel(pixel);
     map.getTargetElement().style.cursor = hit ? 'pointer' : '';
   });
-  // Evento de clique para abrir o link da feature do vetor spVector
+  // Evento de clique para abrir o link 
   map.on('singleclick', function(evt) {
     map.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
         const url = feature.get('url');
