@@ -469,7 +469,7 @@ const map = new ol.Map({
     new ol.control.Zoom(),
     new ol.control.Attribution(),
     new ol.control.FullScreen()
-  ],
+  ],//add fullscreen :)
   layers: [baseLayer, 
     spVector,aracatubaVector,
     araraquaraVector,bauruVector,
