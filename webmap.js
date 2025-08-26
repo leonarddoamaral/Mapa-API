@@ -430,6 +430,7 @@ const valeDoParaibaVector = new ol.layer.Vector({
     source: new ol.source.Vector({
       url: 'json/pontos_vale-paraiba.geojson',
       format: new ol.format.GeoJSON()
+      
     }),
     style: function(feature) {
     return new ol.style.Style({
@@ -437,7 +438,7 @@ const valeDoParaibaVector = new ol.layer.Vector({
         src: "img/localiza-vale-do-paraiba.png",
         scale: 0.1,
         anchor: [0.5, 1]
-        
+                
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -486,4 +487,20 @@ const map = new ol.Map({
     zoom: 7.47
       })
 });
+
+    map.on('pointermove', function(evt) {
+    const pixel = map.getEventPixel(evt.originalEvent);
+    const hit = map.hasFeatureAtPixel(pixel);
+    map.getTargetElement().style.cursor = hit ? 'pointer' : '';
+  });
+  // Evento de clique para abrir o link da feature do vetor spVector
+  map.on('singleclick', function(evt) {
+    map.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+        const url = feature.get('url');
+        if (url) {
+          window.open(url, '_blank');
+        }
+      });
+  });
+
 

@@ -264,7 +264,7 @@ class Style {
   /**
    * Sets a custom renderer function for this style. When set, `fill`, `stroke`
    * and `image` options of the style will be ignored.
-   * @param {RenderFunction|null} renderer Custom renderer function.
+   * @param {RenderFunction|null} renderer Custom renderer function
    * @api
    */
   setRenderer(renderer) {

@@ -4,8 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "GEX SÃO PAULO",
-        "type": "GEX"
+    "name": "GEX SÃO PAULO",
+    "type": "GEX"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +213,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - ARICANDUVA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo"
       },
       "geometry": {
         "type": "Point",
