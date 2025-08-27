@@ -5,7 +5,8 @@
       "type": "Feature",
       "properties": {
         "name": "GEX ABCD",
-        "type": "GEX"
+        "type": "GEX",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +19,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS DIADEMA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -31,7 +33,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO BERNARDO DO CAMPO",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -44,7 +47,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS MAUÁ",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +61,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS RIBEIRÃO PIRES",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +75,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SANTO ANDRÉ/SP",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -83,7 +89,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO CAETANO DO SUL",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",

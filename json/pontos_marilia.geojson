@@ -5,7 +5,8 @@
       "type": "Feature",
       "properties": {
         "name": "GEX MARÍLIA",
-        "type": "GEX"
+        "type": "GEX",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +19,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ASSIS",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -31,7 +33,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS GARÇA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -44,7 +47,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS MARÍLIA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +61,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS OURINHOS",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +75,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS PARAGUAÇÚ PAULISTA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -97,7 +103,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS OSVALDO CRUZ",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -110,7 +117,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS PALMITAL/SP",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -123,7 +131,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SANTA CRUZ DO RIO PARDO",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -136,7 +145,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS PIRAJU",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -149,7 +159,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS BASTOS",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",
@@ -162,7 +173,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS CÂNDIDO MOTA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
       },
       "geometry": {
         "type": "Point",

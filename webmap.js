@@ -470,7 +470,7 @@ const map = new ol.Map({
     new ol.control.Zoom(),
     new ol.control.Attribution(),
     new ol.control.FullScreen()
-  ],//add fullscreen :)
+  ],//botões na tela
   layers: [baseLayer, 
     spVector,aracatubaVector,
     araraquaraVector,bauruVector,
@@ -487,7 +487,7 @@ const map = new ol.Map({
     zoom: 7.47
       })
 });
-  //mouse em cima vira mãozinha
+  //mouse em cima do vetor vira mãozinha
     map.on('pointermove', function(evt) {
     const pixel = map.getEventPixel(evt.originalEvent);
     const hit = map.hasFeatureAtPixel(pixel);

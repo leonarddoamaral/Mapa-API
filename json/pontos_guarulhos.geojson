@@ -5,7 +5,8 @@
       "type": "Feature",
       "properties": {
         "name": "GEX GUARULHOS",
-        "type": "GEX"
+        "type": "GEX",
+        "url":"https://inssgov.sharepoint.com/sites/emdesenvolvimento/Lists/LISTA_MAPA1/GEXGRU.aspx"
       },
       "geometry": {
         "type": "Point",
@@ -19,7 +20,7 @@
       "properties": {
         "name": "APS GUARULHOS",
         "type": "APS FIXA",
-        "url": "http://www-sdc/resultadoUO2.asp?coduorg=21025010"
+        "url": "https://inssgov.sharepoint.com/sites/emdesenvolvimento/Lists/LISTA_MAPA1/GEXGRU.aspx"
       },
       "geometry": {
         "type": "Point",
@@ -32,7 +33,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS MOGI DAS CRUZES",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/emdesenvolvimento/Lists/LISTA_MAPA1/GEXGRU.aspx"
       },
       "geometry": {
         "type": "Point",
@@ -45,7 +47,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SUZANO",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/emdesenvolvimento/Lists/LISTA_MAPA1/GEXGRU.aspx"
       },
       "geometry": {
         "type": "Point",
@@ -58,7 +61,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ITAQUAQUECETUBA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/emdesenvolvimento/Lists/LISTA_MAPA1/GEXGRU.aspx"
       },
       "geometry": {
         "type": "Point",
@@ -71,7 +75,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS BIRITIBA-MIRIM",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/emdesenvolvimento/Lists/LISTA_MAPA1/GEXGRU.aspx"
       },
       "geometry": {
         "type": "Point",
@@ -84,7 +89,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ARUJÁ",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/emdesenvolvimento/Lists/LISTA_MAPA1/GEXGRU.aspx"
       },
       "geometry": {
         "type": "Point",
