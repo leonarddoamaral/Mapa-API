@@ -493,7 +493,7 @@ const map = new ol.Map({
     const hit = map.hasFeatureAtPixel(pixel);
     map.getTargetElement().style.cursor = hit ? 'pointer' : '';
   });
-  // Evento de clique para abrir o link 
+  // Clique sobre o vetor para abrir o link 
   map.on('singleclick', function(evt) {
     map.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
         const url = feature.get('url');
