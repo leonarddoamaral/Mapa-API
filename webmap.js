@@ -456,8 +456,8 @@ const baseLayer = new ol.layer.Tile({
   source: new ol.source.XYZ({
     
     // parece meio antigo url:'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
-     url:'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
-    //url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+     ///url:'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+    url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
     // satelite url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
    // url: 'https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',//padrão
     attributions: '©OpenStreetMap, ©CartoDB'
