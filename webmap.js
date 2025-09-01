@@ -460,7 +460,7 @@ const map = new ol.Map({
     sorocabaVector,valeDoParaibaVector],
   view: new ol.View({
     center: ol.proj.fromLonLat([ -48.08410611081298,-22.670231220665254]),
-    zoom: 7.5
+    zoom: 7.2
       })
 });
   //mouse em cima do vetor vira mãozinha
