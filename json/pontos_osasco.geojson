@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "GEX OSASCO",
-        "type": "GEX"
+  "type": "GEX"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS COTIA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -31,7 +31,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS OSASCO",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -44,7 +44,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS BARUERI",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +57,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS SANTANA DE PARNAÍBA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +70,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS CARAPICUÍBA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -83,7 +83,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS ITAPEVI",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",

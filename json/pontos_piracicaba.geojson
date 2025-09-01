@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "GEX PIRACICABA",
-        "type": "GEX"
+  "type": "GEX"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS ARARAS",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -31,7 +31,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS CAPIVARI",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -44,7 +44,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS LIMEIRA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +57,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS PIRACICABA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +70,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS RIO CLARO/SP",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -83,7 +83,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS TIETÊ",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +96,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS ARTUR NOGUEIRA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -109,7 +109,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS LARANJAL PAULISTA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -122,7 +122,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS RIO DAS PEDRAS",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",

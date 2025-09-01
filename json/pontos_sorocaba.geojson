@@ -5,7 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "GEX SOROCABA",
-        "type": "GEX"
+  "type": "GEX"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS ITAPETININGA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -31,7 +31,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS ITAPEVA/SP",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -44,7 +44,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS ITU",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +57,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS SALTO",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +70,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO ROQUE",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -83,7 +83,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS SOROCABA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +96,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS TATUÍ",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -109,7 +109,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS VOTORANTIM",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -122,7 +122,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS BOITUVA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -135,7 +135,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS SOROCABA - ZONA NORTE",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -148,7 +148,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS CAPÃO BONITO",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +161,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS PIEDADE",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -174,7 +174,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS APIAÍ",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -187,7 +187,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS GUAPIARA",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -200,7 +200,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS ITARARÉ",
-        "type": "APS FIXA"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",

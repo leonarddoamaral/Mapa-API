@@ -4,9 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "GEX ARARAQUARA",
-        "type": "GEX",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "GEX ARARAQUARA",
+  "type": "GEX"
       },
       "geometry": {
         "type": "Point",
@@ -18,9 +17,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS ARARAQUARA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS ARARAQUARA",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -32,9 +30,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS BEBEDOURO",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS BEBEDOURO",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -46,9 +43,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS ITÁPOLIS",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS ITÁPOLIS",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -60,9 +56,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS JABOTICABAL",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS JABOTICABAL",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -74,9 +69,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS MATÃO",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS MATÃO",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -88,9 +82,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS MONTE ALTO",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS MONTE ALTO",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -102,9 +95,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS SÃO CARLOS/SP",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS SÃO CARLOS/SP",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -116,9 +108,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS TAQUARITINGA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS TAQUARITINGA",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -130,9 +121,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS IBITINGA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS IBITINGA",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -144,9 +134,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS IBATÉ",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS IBATÉ",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -158,9 +147,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS PITANGUEIRAS/SP",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS PITANGUEIRAS/SP",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -172,9 +160,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS AMÉRICO BRASILIENSE",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS AMÉRICO BRASILIENSE",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -186,9 +173,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS GUARIBA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS GUARIBA",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -200,9 +186,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS GUARIBA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS GUARIBA",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -214,9 +199,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS DESCALVADO",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS DESCALVADO",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",

@@ -5,13 +5,12 @@
       "type": "Feature",
       "properties": {
         "name": "GEX ABCD",
-        "type": "GEX",
-        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=85f0e493%2D5110%2D4334%2D80d3%2D7d6cacd08345"
+        "type": "GEX"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-         	-46.538797,-23.65917
+         		-46.79367,-21.9711
         ]
       }
     },
@@ -19,8 +18,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS DIADEMA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+        "type": "APS FIXA"
+        
       },
       "geometry": {
         "type": "Point",
@@ -33,8 +32,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO BERNARDO DO CAMPO",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+        "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -47,8 +45,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS MAUÁ",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+        "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -61,8 +58,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS RIBEIRÃO PIRES",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+        "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -75,8 +71,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS SANTO ANDRÉ/SP",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+        "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -89,8 +84,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO CAETANO DO SUL",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+        "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",

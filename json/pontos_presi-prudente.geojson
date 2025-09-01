@@ -6,6 +6,7 @@
       "properties": {
         "name": "GEX PRESIDENTE PRUDENTE",
         "type": "GEX"
+       
       },
       "geometry": {
         "type": "Point",
@@ -19,6 +20,7 @@
       "properties": {
         "name": "APS ADAMANTINA",
         "type": "APS FIXA"
+       
       },
       "geometry": {
         "type": "Point",
@@ -32,6 +34,7 @@
       "properties": {
         "name": "APS DRACENA",
         "type": "APS FIXA"
+       
       },
       "geometry": {
         "type": "Point",
@@ -45,6 +48,7 @@
       "properties": {
         "name": "APS PRESIDENTE EPITÁCIO",
         "type": "APS FIXA"
+       
       },
       "geometry": {
         "type": "Point",
@@ -58,6 +62,7 @@
       "properties": {
         "name": "APS PRESIDENTE PRUDENTE",
         "type": "APS FIXA"
+       
       },
       "geometry": {
         "type": "Point",
@@ -71,6 +76,7 @@
       "properties": {
         "name": "APS PRESIDENTE VENCESLAU",
         "type": "APS FIXA"
+       
       },
       "geometry": {
         "type": "Point",
@@ -84,6 +90,7 @@
       "properties": {
         "name": "APS RANCHARIA",
         "type": "APS FIXA"
+      
       },
       "geometry": {
         "type": "Point",
@@ -97,6 +104,7 @@
       "properties": {
         "name": "APS ROSANA",
         "type": "APS FIXA"
+       
       },
       "geometry": {
         "type": "Point",
@@ -110,6 +118,7 @@
       "properties": {
         "name": "APS MARTINOPÓLIS",
         "type": "APS FIXA"
+       
       },
       "geometry": {
         "type": "Point",
@@ -123,6 +132,7 @@
       "properties": {
         "name": "APS TEODORO SAMPAIO/SP",
         "type": "APS FIXA"
+       
       },
       "geometry": {
         "type": "Point",
@@ -136,6 +146,7 @@
       "properties": {
         "name": "APS ÁLVARES MACHADO",
         "type": "APS FIXA"
+       
       },
       "geometry": {
         "type": "Point",

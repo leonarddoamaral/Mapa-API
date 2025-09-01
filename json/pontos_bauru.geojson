@@ -4,9 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "GEX BAURU",
-        "type": "GEX",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "GEX BAURU",
+  "type": "GEX"
       },
       "geometry": {
         "type": "Point",
@@ -18,9 +17,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS AVARÉ",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS AVARÉ",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -32,9 +30,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS BAURU",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS BAURU",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -46,9 +43,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS BOTUCATU",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS BOTUCATU",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -60,9 +56,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS JAÚ",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS JAÚ",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -74,9 +69,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS LENCÓIS PAULISTA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS LENCÓIS PAULISTA",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -88,9 +82,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS DOIS CÓRREGOS",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS DOIS CÓRREGOS",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -102,9 +95,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS SÃO MANUEL",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS SÃO MANUEL",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -116,9 +108,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS ITAÍ",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS ITAÍ",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -130,9 +121,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS TAQUARITUBA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS TAQUARITUBA",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -144,9 +134,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS IGARAÇU DO TIETÊ",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS IGARAÇU DO TIETÊ",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -158,9 +147,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS PEDERNEIRAS",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS PEDERNEIRAS",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -172,9 +160,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS BARRA BONITA/SP",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS BARRA BONITA/SP",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -186,9 +173,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS BARIRI",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS BARIRI",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -200,9 +186,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS AGUDOS",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS AGUDOS",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -214,9 +199,8 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "APS BROTAS",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "name": "APS BROTAS",
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",

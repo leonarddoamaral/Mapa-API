@@ -5,8 +5,7 @@
       "type": "Feature",
       "properties": {
         "name": "GEX MARÍLIA",
-        "type": "GEX",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "type": "GEX"
       },
       "geometry": {
         "type": "Point",
@@ -19,8 +18,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS ASSIS",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -33,8 +31,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS GARÇA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -47,8 +44,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS MARÍLIA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -61,8 +57,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS OURINHOS",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -75,8 +70,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS PARAGUAÇÚ PAULISTA",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -89,8 +83,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS TUPÃ",
-        "type": "APS FIXA",
-        "url": "http://www-sdc/resultadoUO2.asp?coduorg=21027060"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -103,8 +96,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS OSVALDO CRUZ",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -117,8 +109,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS PALMITAL/SP",
-        "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+  "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -132,7 +123,7 @@
       "properties": {
         "name": "APS SANTA CRUZ DO RIO PARDO",
         "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=0f8efd92%2D9df8%2D44f1%2D9e19%2D2d236cc4b0d5"
       },
       "geometry": {
         "type": "Point",
@@ -146,7 +137,7 @@
       "properties": {
         "name": "APS PIRAJU",
         "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=0f8efd92%2D9df8%2D44f1%2D9e19%2D2d236cc4b0d5"
       },
       "geometry": {
         "type": "Point",
@@ -160,7 +151,7 @@
       "properties": {
         "name": "APS BASTOS",
         "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=0f8efd92%2D9df8%2D44f1%2D9e19%2D2d236cc4b0d5"
       },
       "geometry": {
         "type": "Point",
@@ -174,7 +165,7 @@
       "properties": {
         "name": "APS CÂNDIDO MOTA",
         "type": "APS FIXA",
-        "url": "https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiA4P_dq6uPAxX7rJUCHV-xHakQPAgJ"
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=0f8efd92%2D9df8%2D44f1%2D9e19%2D2d236cc4b0d5"
       },
       "geometry": {
         "type": "Point",

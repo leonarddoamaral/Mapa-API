@@ -6,7 +6,7 @@
       "properties": {
         "name": "GEX VALE DO PARAÍBA",
         "type": "GEX"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -19,7 +19,7 @@
       "properties": {
         "name": "APS APARECIDA/SP",
         "type": "APS FIXA"
-      },
+             },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -32,7 +32,7 @@
       "properties": {
         "name": "APS CAÇAPAVA",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -45,7 +45,7 @@
       "properties": {
         "name": "APS CRUZEIRO",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -58,7 +58,7 @@
       "properties": {
         "name": "APS GUARATINGUETÁ",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -71,7 +71,7 @@
       "properties": {
         "name": "APS LORENA",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -84,7 +84,7 @@
       "properties": {
         "name": "APS PINDAMONHANGABA",
         "type": "APS FIXA"
-      },
+             },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -97,7 +97,7 @@
       "properties": {
         "name": "APS TAUBATÉ",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -110,7 +110,7 @@
       "properties": {
         "name": "APS UBATUBA",
         "type": "APS FIXA"
-      },
+            },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -123,7 +123,7 @@
       "properties": {
         "name": "APS CACHOEIRA PAULISTA",
         "type": "APS FIXA"
-      },
+             },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -136,7 +136,7 @@
       "properties": {
         "name": "APS CUNHA",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -149,7 +149,7 @@
       "properties": {
         "name": "APS CAMPOS DO JORDÃO",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -162,7 +162,7 @@
       "properties": {
         "name": "APS CARAGUATATUBA",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -175,7 +175,7 @@
       "properties": {
         "name": "APS JACAREÍ",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -188,7 +188,7 @@
       "properties": {
         "name": "APS SÃO JOSÉ DOS CAMPOS",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -201,7 +201,7 @@
       "properties": {
         "name": "APS SÃO SEBASTIÃO/SP",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -214,7 +214,7 @@
       "properties": {
         "name": "APS SANTA ISABEL",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -227,7 +227,7 @@
       "properties": {
         "name": "APS GUARAREMA",
         "type": "APS FIXA"
-      },
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
