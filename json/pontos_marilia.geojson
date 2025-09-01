@@ -122,8 +122,7 @@
       "type": "Feature",
       "properties": {
         "name": "APS SANTA CRUZ DO RIO PARDO",
-        "type": "APS FIXA",
-        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=0f8efd92%2D9df8%2D44f1%2D9e19%2D2d236cc4b0d5"
+        "type": "APS FIXA"
       },
       "geometry": {
         "type": "Point",
@@ -136,9 +135,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS PIRAJU",
-        "type": "APS FIXA",
-        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=0f8efd92%2D9df8%2D44f1%2D9e19%2D2d236cc4b0d5"
-      },
+        "type": "APS FIXA"
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -150,9 +148,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS BASTOS",
-        "type": "APS FIXA",
-        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=0f8efd92%2D9df8%2D44f1%2D9e19%2D2d236cc4b0d5"
-      },
+        "type": "APS FIXA"
+              },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -164,9 +161,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS CÂNDIDO MOTA",
-        "type": "APS FIXA",
-        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=0f8efd92%2D9df8%2D44f1%2D9e19%2D2d236cc4b0d5"
-      },
+        "type": "APS FIXA"
+             },
       "geometry": {
         "type": "Point",
         "coordinates": [
