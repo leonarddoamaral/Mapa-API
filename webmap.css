@@ -27,7 +27,7 @@ select {
   position: absolute;
   top: 10px;
   left: 50px;
-  z-index: 1000;
+  z-index: 9999;
   background-color: #0072bc;
   padding: 5px;
   border-radius: 8px;
@@ -99,5 +99,4 @@ optgroup{
   font-size: larger;
 
 }
-  
 
