@@ -60,8 +60,7 @@ option {
   justify-content: flex-start;
   gap: 20px;
   color: white;
-
-  border: 2px solid #dddddd;
+  margin-top: 8px;
   background: #0072bc;
   padding: 10px;
   transition: 0.4s;
@@ -86,6 +85,19 @@ option:nth-of-type(odd) {
 
 option:hover,
 option:focus {
-  background:  #95d3fc;
+  background:  #aedfff;
   cursor: pointer;
+  transition: transform 0.25s;
+  transform: scale(1.05);
+  color: black;
 }
+optgroup{
+  padding: 10px;
+  background-color: #1682c0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+
+}
+  
+

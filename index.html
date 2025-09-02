@@ -1,23 +1,26 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa Interativo</title>
-    <link rel="stylesheet" href="webmap.css"> 
-    <link rel="stylesheet" href="v9.2.4-package/ol.css"> 
-    <script src="v9.2.4-package/dist/ol.js"></script>       
-  </head>
-  <body>
-    <div id="web-map" class="map"></div>
-    <div class="Lista">
-      <select name="ListaGEX" id="ListaGEX">
-        <option value="Todas">Selecione uma GEX</option>
-        <option data-icon="img/localiza-abcd.png" value="GEXABCD">GEXABCD</option>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa Interativo</title>
+  <link rel="stylesheet" href="webmap.css">
+  <link rel="stylesheet" href="v9.2.4-package/ol.css">
+  <script src="v9.2.4-package/dist/ol.js"></script>
+</head>
+
+<body>
+  <div id="web-map" class="map"></div>
+  <div class="Lista">
+    <select name="ListaGEX" id="ListaGEX">
+
+      <optgroup label="GEX">
+        <option value="Todas">Filtrar</option>
+        <option value="GEXABCD">GEXABCD</option>
         <option value="GEXACQ">GEXACQ</option>
         <option value="GEXACT">GEXACT</option>
-        <option data-icon="img/localiza-bauru.png" value="GEXBRU">GEXBRU</option>
+        <option value="GEXBRU">GEXBRU</option>
         <option value="GEXCPN">GEXCPN</option>
         <option value="GEXGRU">GEXGRU</option>
         <option value="GEXJDI">GEXJDI</option>
@@ -31,12 +34,24 @@
         <option value="GEXSOR">GEXSOR</option>
         <option value="GEXVPB">GEXVPB</option>
         <option value="GEXSP">GEXSP</option>
-      </select>
-    </div>
-    <script src="webmap.js" defer></script>
-    <noscript>
-      <img src="img/Mapa-APS.png" alt="Mapa das Agências e Gerências"> 
-    </noscript>
-    <div id="map-error" style="display:none;">Erro ao carregar o mapa. Verifique sua conexão com a rede interna.</div>
+      </optgroup>
+
+
+      <optgroup label="Contratos LOG_VIG">
+        <option value="VIG-1">VIG-POLO-I</option>
+        <option value="VIG-2">VIG-POLO-II</option>
+        <option value="VIG-3">VIG-POLO-III</option>
+        <option value="VIG-4">VIG-POLO-IV</option>
+        <option value="VIG-5">VIG-POLO-V</option>
+        <option value="VIG-6">VIG-POLO-VI</option>
+      </optgroup>
+    </select>
+  </div>
+  <script src="webmap.js" defer></script>
+  <noscript>
+    <img src="img/Mapa-APS.png" alt="Mapa das Agências e Gerências">
+  </noscript>
+  <div id="map-error" style="display:none;">Erro ao carregar o mapa. Verifique sua conexão com a rede interna.</div>
 </body>
+
 </html>

@@ -447,6 +447,34 @@ const spContorno = new ol.layer.Vector({
   })
 })
 
+const regionColors = {
+  "Araçatuba": "#ff0000",
+  "Barretos": "#00ff00",
+  "Bauru": "#0000ff",
+  "Campinas": "#ff00ff",
+  // ...adicione as demais regiões e cores desejadas
+};
+
+const limp = new ol.layer.Vector({
+  source: new ol.source.Vector({
+    url: 'json/SP_RA.geojson',
+    format: new ol.format.GeoJSON()
+  }),
+  style: function(feature) {
+    const ra = feature.get('RA');
+    const color = regionColors[ra] || "#cccccc"; // cor padrão se não definido
+    return new ol.style.Style({
+      stroke: new ol.style.Stroke({
+        color: color,
+        width: 2
+      }),
+      fill: new ol.style.Fill({
+        color: color + '55' // cor semi-transparente
+      })
+    });
+  }
+});
+
 const map = new ol.Map({
   target: 'web-map',
   controls: [
@@ -454,7 +482,7 @@ const map = new ol.Map({
     new ol.control.Attribution(),
     new ol.control.FullScreen()
   ],//botões na tela
-  layers: [baseLayer,spContorno, 
+  layers: [baseLayer,spContorno,
     spVector,aracatubaVector,
     araraquaraVector,bauruVector,
     campinasVector,guarulhosVector,
@@ -512,6 +540,7 @@ const map = new ol.Map({
     GEXSOR: sorocabaVector,
     GEXVPB: valeDoParaibaVector,
     GEXSP: spVector,
+    LIMP: limp
   };
 
   // Esconde todas as camadas de vetor
@@ -524,6 +553,42 @@ const map = new ol.Map({
   else if(gexSelecionada === "Todas") {
     // Mostra todas as camadas
     Object.values(layers).forEach(layer => layer.setVisible(true));
+  }
+  else if(gexSelecionada === "VIG-1") {
+    // Mostra apenas a camada de limite
+    layers.GEXSP.setVisible(true);
+  }
+  else if(gexSelecionada === "VIG-2") {
+    // Mostra apenas a camada de limite
+   layers.GEXGRU.setVisible(true);
+   layers.GEXVPB.setVisible(true);
+  }
+  else if(gexSelecionada === "VIG-3") {
+    // Mostra apenas a camada de limite
+   layers.GEXABCD.setVisible(true);
+   layers.GEXSAN.setVisible(true);
+  }
+  else if(gexSelecionada === "VIG-4") {
+    // Mostra apenas a camada de limite
+   layers.GEXCPN.setVisible(true);
+   layers.GEXJDI.setVisible(true);
+   layers.GEXOSA.setVisible(true);
+  }
+  else if(gexSelecionada === "VIG-5") {
+    // Mostra apenas a camada de limite
+   layers.GEXACT.setVisible(true);
+   layers.GEXBRU.setVisible(true);
+   layers.GEXMRI.setVisible(true);
+   layers.GEXPRP.setVisible(true);
+   layers.GEXSOR.setVisible(true);
+  }
+  else if(gexSelecionada === "VIG-6") {
+    // Mostra apenas a camada de limite
+   layers.GEXACQ.setVisible(true);
+   layers.GEXPIR.setVisible(true);
+   layers.GEXRBP.setVisible(true);
+   layers.GEXSBV.setVisible(true);
+   layers.GEXSJRP.setVisible(true);
   }
   // baseLayer e spContorno permanecem visíveis
   baseLayer.setVisible(true);
