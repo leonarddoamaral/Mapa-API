@@ -440,6 +440,13 @@ const baseLayer = new ol.layer.Tile({
   })
 });
 
+const spContorno = new ol.layer.Vector({
+  source: new ol.source.Vector({
+    url: 'json/SP_RA.geojson',
+    format: new ol.format.GeoJSON()
+  })
+})
+
 const map = new ol.Map({
   target: 'web-map',
   controls: [
@@ -447,7 +454,7 @@ const map = new ol.Map({
     new ol.control.Attribution(),
     new ol.control.FullScreen()
   ],//botões na tela
-  layers: [baseLayer, 
+  layers: [baseLayer,spContorno, 
     spVector,aracatubaVector,
     araraquaraVector,bauruVector,
     campinasVector,guarulhosVector,
