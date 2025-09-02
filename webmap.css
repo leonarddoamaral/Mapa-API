@@ -19,4 +19,73 @@ body {
 .map:-webkit-full-screen {
         height: 100%;
         margin: 0;
- }
+}
+
+
+
+select {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  z-index: 1000;
+  background-color: #0072bc;
+  padding: 5px;
+  border-radius: 8px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+select,
+::picker(select) {
+  appearance: base-select;
+  border: none;
+}
+
+select:hover,
+select:focus {
+ background-color: #38a5ee;
+ cursor: pointer;
+}
+select::picker-icon {
+  color: #ffffff;
+  transition: 0.4s rotate;
+}
+select:open::picker-icon {
+  rotate: 180deg;
+}
+
+option {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  color: white;
+
+  border: 2px solid #dddddd;
+  background: #0072bc;
+  padding: 10px;
+  transition: 0.4s;
+  border-radius: 8px;
+}
+
+option:first-of-type {
+  border-radius: 8px 8px 0 0;
+}
+
+option:last-of-type {
+  border-radius: 0 0 8px 8px;
+}
+
+option:not(option:last-of-type) {
+  border-bottom: none;
+}
+
+option:nth-of-type(odd) {
+  background: #2fa4f1;
+}
+
+option:hover,
+option:focus {
+  background:  #95d3fc;
+  cursor: pointer;
+}

@@ -487,3 +487,47 @@ const map = new ol.Map({
   });
 
 
+
+
+  document.getElementById('ListaGEX').addEventListener('change', function(event) {
+  const gexSelecionada = event.target.value;
+
+  // Lista de todas as camadas de vetor
+  const layers = {
+    GEXABCD: abcdVector,
+    GEXACT: aracatubaVector,
+    GEXACQ: araraquaraVector,
+    GEXBRU: bauruVector,
+    GEXCPN: campinasVector,
+    GEXGRU: guarulhosVector,
+    GEXJDI: jundiaiVector,
+    GEXMRI: mariliaVector,
+    GEXOSA: osascoVector,
+    GEXPIR: piracicabaVector,
+    GEXPRP: presiprudenteVector,
+    GEXRBP: riberaopretoVector,
+    GEXSAN: santosVector,
+    GEXSBV: saojoaoBoaVistaVector,
+    GEXSJRP: sjrpVector,
+    GEXSOR: sorocabaVector,
+    GEXVPB: valeDoParaibaVector,
+    GEXSP: spVector,
+  };
+
+  // Esconde todas as camadas de vetor
+  Object.values(layers).forEach(layer => layer.setVisible(false));
+
+  // Mostra apenas a camada selecionada (se existir)
+  if (layers[gexSelecionada]) {
+    layers[gexSelecionada].setVisible(true);
+  }
+  else if(gexSelecionada === "Todas") {
+    // Mostra todas as camadas
+    Object.values(layers).forEach(layer => layer.setVisible(true));
+  }
+  // baseLayer e spContorno permanecem visíveis
+  baseLayer.setVisible(true);
+  spContorno.setVisible(true);
+});
+
+
