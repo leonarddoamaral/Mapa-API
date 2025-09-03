@@ -124,7 +124,7 @@ optgroup{
 input{
   position: absolute;
   top: 0.8%;
-  right: 3%;
+  right: 40px;
   z-index: 9999;
   padding: 5px;
   border-radius: 8px;
@@ -148,7 +148,7 @@ input:focus {
 #voltar{
   position: absolute;
   top: 0.8%;
-  right: 270px;
+  right: 250px;
   z-index: 9999;
   padding: 5px;
   border-radius: 8px;
