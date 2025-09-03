@@ -148,7 +148,7 @@ input:focus {
 #voltar{
   position: absolute;
   top: 0.8%;
-  right: 14%;
+  right: 270px;
   z-index: 9999;
   padding: 5px;
   border-radius: 8px;
