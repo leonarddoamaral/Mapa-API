@@ -1,3 +1,32 @@
+//link opções de mapas
+const mapaAtual='https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png';
+const mapaDark ='https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';
+const mapaSatelite ='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
+const mapaBranco ='https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
+const mapaColorido ='https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}';
+
+//cores
+const branco = '#ffffff';
+const spCor = '#0072bc';
+const aracatubaCor = '#ff5757';
+const campinasCor = '#8c52ff';
+const guarulhosCor = '#d8b31e';
+const jundiaiCor = '#af4c0f';
+const araraquaraCor = '#028538';
+const bauruCor = '#f2b54f';
+const mariliaCor = '#ff914d';
+const osascoCor = '#0cc0df';
+const piracicabaCor = '#2e6417';
+const presiprudenteCor = '#5271ff';
+const riberaopretoCor = '#001b3d';
+const santosCor = '#bc3fde';
+const abcdCor = '#cc0000';
+const saojoaoBoaVistaCor = '#74cc00';
+const sjrpCor = '#ff66c4';
+const sorocabaCor = '#7a004b';
+const valeDoParaibaCor = '#00687a';
+
+//vetores
 const spVector = new ol.layer.Vector({
     source: new ol.source.Vector({
       url: 'json/pontos_sp.geojson',
@@ -13,15 +42,13 @@ const spVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#0172b9' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: spCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
 });
-
-//
 
 const aracatubaVector = new ol.layer.Vector({
     source: new ol.source.Vector({
@@ -38,14 +65,14 @@ const aracatubaVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#ff5757' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: aracatubaCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
+
 const campinasVector = new ol.layer.Vector({
     source: new ol.source.Vector({
       url: 'json/pontos_campinas.geojson',
@@ -61,8 +88,8 @@ const campinasVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color:'#8c52ff' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: campinasCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
@@ -84,13 +111,14 @@ const guarulhosVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color:'#d8b31e' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: guarulhosCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
 });
+
 const jundiaiVector = new ol.layer.Vector({
     source: new ol.source.Vector({
       url: 'json/pontos_jundiai.geojson',
@@ -106,8 +134,8 @@ const jundiaiVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color:'#af4c0f' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: jundiaiCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
@@ -130,13 +158,12 @@ const araraquaraVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#028538' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: araraquaraCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
 
 const bauruVector = new ol.layer.Vector({
@@ -154,13 +181,12 @@ const bauruVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#f2b54f' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: bauruCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
 
 const mariliaVector = new ol.layer.Vector({
@@ -178,14 +204,14 @@ const mariliaVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#ff914d' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: mariliaCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
+
 const osascoVector = new ol.layer.Vector({
     source: new ol.source.Vector({
       url: 'json/pontos_osasco.geojson',
@@ -201,13 +227,12 @@ const osascoVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#0cc0df' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: osascoCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
 
 const piracicabaVector = new ol.layer.Vector({
@@ -225,14 +250,14 @@ const piracicabaVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#2e6417' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: piracicabaCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
+
 const presiprudenteVector = new ol.layer.Vector({
     source: new ol.source.Vector({
       url: 'json/pontos_presi-prudente.geojson',
@@ -248,13 +273,12 @@ const presiprudenteVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#5271ff' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: presiprudenteCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
 
 const riberaopretoVector = new ol.layer.Vector({
@@ -272,13 +296,12 @@ const riberaopretoVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#001b3d' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: riberaopretoCor}), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
 
 const santosVector = new ol.layer.Vector({
@@ -296,13 +319,12 @@ const santosVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#bc3fde' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: santosCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
 
 const abcdVector = new ol.layer.Vector({
@@ -320,13 +342,12 @@ const abcdVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#cc0000' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color:abcdCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
 
 const saojoaoBoaVistaVector = new ol.layer.Vector({
@@ -344,13 +365,12 @@ const saojoaoBoaVistaVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#74cc00' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: saojoaoBoaVistaCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
 
 const sjrpVector = new ol.layer.Vector({
@@ -368,15 +388,13 @@ const sjrpVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#ff66c4' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: sjrpCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
-
 
 const sorocabaVector = new ol.layer.Vector({
     source: new ol.source.Vector({
@@ -393,49 +411,40 @@ const sorocabaVector = new ol.layer.Vector({
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#7a004b' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: sorocabaCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
 
 const valeDoParaibaVector = new ol.layer.Vector({
     source: new ol.source.Vector({
       url: 'json/pontos_vale-paraiba.geojson',
       format: new ol.format.GeoJSON()
-      
     }),
     style: function(feature) {
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-vale-do-paraiba.png",
         scale: 0.1,
-        anchor: [0.5, 1]
-                
+        anchor: [0.5, 1]      
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
         font: '11px Calibri,sans-serif',
-        fill: new ol.style.Fill({ color: '#00687a' }), 
-        stroke: new ol.style.Stroke({ color: '#ffffff', width: 2 }),
+        fill: new ol.style.Fill({ color: valeDoParaibaCor }), 
+        stroke: new ol.style.Stroke({ color: branco, width: 2 }),
         offsetY: -45
       })
     });
   }
-
 });
 
 const baseLayer = new ol.layer.Tile({
   source: new ol.source.XYZ({
-    
-   url:'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
-     //url:'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png', //mapa preo
-    //url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
-    // satelite url:'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-   //url: 'https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',//padrão
+    url: mapaAtual,
     attributions: '©OpenStreetMap, ©CartoDB'
   })
 });
@@ -445,36 +454,9 @@ const spContorno = new ol.layer.Vector({
     url: 'json/SP_RA.geojson',
     format: new ol.format.GeoJSON()
   })
-})
-
-const regionColors = {
-  "Araçatuba": "#ff0000",
-  "Barretos": "#00ff00",
-  "Bauru": "#0000ff",
-  "Campinas": "#ff00ff",
-  // ...adicione as demais regiões e cores desejadas
-};
-
-const limp = new ol.layer.Vector({
-  source: new ol.source.Vector({
-    url: 'json/SP_RA.geojson',
-    format: new ol.format.GeoJSON()
-  }),
-  style: function(feature) {
-    const ra = feature.get('RA');
-    const color = regionColors[ra] || "#cccccc"; // cor padrão se não definido
-    return new ol.style.Style({
-      stroke: new ol.style.Stroke({
-        color: color,
-        width: 2
-      }),
-      fill: new ol.style.Fill({
-        color: color + '55' // cor semi-transparente
-      })
-    });
-  }
 });
 
+//vetores no mapa e outras camadas
 const map = new ol.Map({
   target: 'web-map',
   controls: [
@@ -498,29 +480,8 @@ const map = new ol.Map({
     zoom: 7.2
       })
 });
-  //mouse em cima do vetor vira mãozinha
-    map.on('pointermove', function(evt) {
-    const pixel = map.getEventPixel(evt.originalEvent);
-    const hit = map.hasFeatureAtPixel(pixel);
-    map.getTargetElement().style.cursor = hit ? 'pointer' : '';
-  });
-  // Clique sobre o vetor para abrir o link 
-  map.on('singleclick', function(evt) {
-    map.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
-        const url = feature.get('url');
-        if (url) {
-          window.open(url, '_blank');
-        }
-      });
-  });
 
-
-
-
-  document.getElementById('ListaGEX').addEventListener('change', function(event) {
-  const gexSelecionada = event.target.value;
-
-  // Lista de todas as camadas de vetor
+//camadas de vetores
   const layers = {
     GEXABCD: abcdVector,
     GEXACT: aracatubaVector,
@@ -540,13 +501,56 @@ const map = new ol.Map({
     GEXSOR: sorocabaVector,
     GEXVPB: valeDoParaibaVector,
     GEXSP: spVector,
-    LIMP: limp
   };
 
-  // Esconde todas as camadas de vetor
+
+
+// mouse em cima do vetor aumenta o ícone
+let lastFeature = null;
+map.on('pointermove', function(evt) {
+  const pixel = map.getEventPixel(evt.originalEvent);
+  const hit = map.hasFeatureAtPixel(pixel);
+  map.getTargetElement().style.cursor = hit ? 'pointer' : '';
+
+  // Restaura o último feature destacado
+  if (lastFeature) {
+    lastFeature.setStyle(null);
+    lastFeature = null;
+  }
+
+  // Só aplica hover em features de camadas de pontos (ícones)
+  map.forEachFeatureAtPixel(pixel, function(feature, layer) {
+    // Verifica se o layer tem estilo de ícone
+    const styleFn = layer.getStyle ? layer.getStyle() : null;
+    if (typeof styleFn === 'function') {
+      const originalStyle = styleFn(feature);
+      if (originalStyle && originalStyle.getImage()) {
+        const hoverStyle = originalStyle.clone();
+        hoverStyle.getImage().setScale(0.109); // aumenta o scale
+        feature.setStyle(hoverStyle);
+        lastFeature = feature;
+      }
+    }
+  });
+});
+
+  // Clique sobre o vetor para abrir o link 
+  map.on('singleclick', function(evt) {   
+    map.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+      
+      const url = feature.get('url');
+        if (url) {
+          window.open(url, '_blank');
+        }
+      });
+  });
+
+  document.getElementById('ListaGEX').addEventListener('change', function(event) {
+  const gexSelecionada = event.target.value;
+
   Object.values(layers).forEach(layer => layer.setVisible(false));
 
-  // Mostra apenas a camada selecionada (se existir)
+  // Mostra apenas a camada selecionada
   if (layers[gexSelecionada]) {
     layers[gexSelecionada].setVisible(true);
   }
@@ -555,27 +559,22 @@ const map = new ol.Map({
     Object.values(layers).forEach(layer => layer.setVisible(true));
   }
   else if(gexSelecionada === "VIG-1") {
-    // Mostra apenas a camada de limite
     layers.GEXSP.setVisible(true);
   }
   else if(gexSelecionada === "VIG-2") {
-    // Mostra apenas a camada de limite
    layers.GEXGRU.setVisible(true);
    layers.GEXVPB.setVisible(true);
   }
   else if(gexSelecionada === "VIG-3") {
-    // Mostra apenas a camada de limite
    layers.GEXABCD.setVisible(true);
    layers.GEXSAN.setVisible(true);
   }
   else if(gexSelecionada === "VIG-4") {
-    // Mostra apenas a camada de limite
    layers.GEXCPN.setVisible(true);
    layers.GEXJDI.setVisible(true);
    layers.GEXOSA.setVisible(true);
   }
   else if(gexSelecionada === "VIG-5") {
-    // Mostra apenas a camada de limite
    layers.GEXACT.setVisible(true);
    layers.GEXBRU.setVisible(true);
    layers.GEXMRI.setVisible(true);
@@ -583,17 +582,60 @@ const map = new ol.Map({
    layers.GEXSOR.setVisible(true);
   }
   else if(gexSelecionada === "VIG-6") {
-    // Mostra apenas a camada de limite
    layers.GEXACQ.setVisible(true);
    layers.GEXPIR.setVisible(true);
    layers.GEXRBP.setVisible(true);
    layers.GEXSBV.setVisible(true);
    layers.GEXSJRP.setVisible(true);
   }
-  // baseLayer e spContorno permanecem visíveis
   baseLayer.setVisible(true);
   spContorno.setVisible(true);
 });
 
 
+//pesquisar agencia
+document.getElementById('search').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') {
+    const search = e.target.value.toLowerCase();
+    if (search.length === 0) {
+      // Retorna ao ponto e zoom originais
+      map.getView().setCenter(ol.proj.fromLonLat([-48.08410611081298, -22.670231220665254]));
+      map.getView().setZoom(7.2);
+      return;
+    }
+      let exactFound = null;
+      let partialFound = null;
+      Object.values(layers).forEach(layer => {
+        layer.getSource().forEachFeature(function(feature) {
+          const name = (feature.get('name') || '').toLowerCase();
+          if (!exactFound && name === search) {
+            exactFound = feature;
+          } else if (!partialFound && name.includes(search)) {
+            partialFound = feature;
+          }
+        });
+      });
+      if (exactFound) {
+        const geometry = exactFound.getGeometry();
+        if (geometry) {
+          map.getView().fit(geometry.getExtent(), { maxZoom: 15, duration: 800 });
+        }
+      } else if (partialFound) {
+        const geometry = partialFound.getGeometry();
+        if (geometry) {
+          map.getView().fit(geometry.getExtent(), { maxZoom: 15, duration: 800 });
+        }
+      } else {
+        alert('Nenhuma Agência/Gerência encontrada com nome de ' + search);
+      }
+  }
+});
 
+
+//botão para voltar ao zoom padrão
+voltar.addEventListener('click', function() {
+  map.getView().setCenter(ol.proj.fromLonLat([-48.08410611081298, -22.670231220665254]));
+  map.getView().setZoom(7.2);
+  document.getElementById('search').value = '';
+  Object.values(layers).forEach(layer => layer.setVisible(true));
+});

@@ -1,3 +1,15 @@
+:root{
+  --azul-inss: #0072bc;
+  --select-claro: #38a5ee;
+  --option-hover: #aedfff;
+  --fundo-option: #2fa4f1;
+  --fundo-optgroup: #1682c0;
+  --pressionado: #2e5a7a;
+  --branco: #f8f8e9;
+  --preto: #1a1a1a;
+}
+
+
 * {
   margin: 0;
 }
@@ -22,16 +34,15 @@ body {
 }
 
 
-
 select {
   position: absolute;
-  top: 10px;
+  top: 0.8%;
   left: 50px;
   z-index: 9999;
-  background-color: #0072bc;
+  background-color: var(--azul-inss);
   padding: 5px;
   border-radius: 8px;
-  color: white;
+  color: var(--branco);
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -42,13 +53,17 @@ select,
   border: none;
 }
 
-select:hover,
-select:focus {
- background-color: #38a5ee;
+select:hover{
+  background-color: var(--select-claro);
  cursor: pointer;
 }
+select:active{
+  background-color: var(--pressionado);
+  color: var(--branco);
+}
+
 select::picker-icon {
-  color: #ffffff;
+  color: var(--branco);
   transition: 0.4s rotate;
 }
 select:open::picker-icon {
@@ -59,9 +74,9 @@ option {
   display: flex;
   justify-content: flex-start;
   gap: 20px;
-  color: white;
+  color: var(--branco);
   margin-top: 8px;
-  background: #0072bc;
+  background: var(--azul-inss);
   padding: 10px;
   transition: 0.4s;
   border-radius: 8px;
@@ -80,23 +95,74 @@ option:not(option:last-of-type) {
 }
 
 option:nth-of-type(odd) {
-  background: #2fa4f1;
+  background: var(--fundo-option);
 }
 
 option:hover,
 option:focus {
-  background:  #aedfff;
+  background:  var(--option-hover);
   cursor: pointer;
   transition: transform 0.25s;
   transform: scale(1.05);
-  color: black;
+  color: var(--preto);
+}
+
+option:active {
+  background-color: var(--pressionado);
+  color: var(--branco);
 }
 optgroup{
   padding: 10px;
-  background-color: #1682c0;
-  color: white;
+  background-color: var(--fundo-optgroup);
+  color: var(--branco)  ;
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
+  border-radius: 8px;
 
 }
 
+input{
+  position: absolute;
+  top: 0.8%;
+  right: 3%;
+  z-index: 9999;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--azul-inss);
+  color: var(--branco);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+input::placeholder {
+  color: var(--branco);
+  opacity: 0.7;
+}
+
+input:focus {
+  outline: none;
+  background-color: var(--select-claro);
+}
+
+#voltar{
+  position: absolute;
+  top: 0.8%;
+  right: 14%;
+  z-index: 9999;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--azul-inss);
+  color: var(--branco);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  cursor: pointer;
+}
+#voltar:hover{
+  background-color: var(--select-claro);
+}
+
+#voltar:active{
+  background-color: var(--pressionado);
+}
