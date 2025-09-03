@@ -554,7 +554,7 @@ map.on('pointermove', function(evt) {
   if (layers[gexSelecionada]) {
     layers[gexSelecionada].setVisible(true);
   }
-  else if(gexSelecionada === "Todas") {
+  else if(gexSelecionada === "Todas" ||gexSelecionada ==="Filtrar") {
     // Mostra todas as camadas
     Object.values(layers).forEach(layer => layer.setVisible(true));
   }
@@ -637,5 +637,6 @@ voltar.addEventListener('click', function() {
   map.getView().setCenter(ol.proj.fromLonLat([-48.08410611081298, -22.670231220665254]));
   map.getView().setZoom(7.2);
   document.getElementById('search').value = '';
+  document.getElementById('ListaGEX').value = 'Todas';
   Object.values(layers).forEach(layer => layer.setVisible(true));
 });
