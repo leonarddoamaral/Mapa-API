@@ -1,4 +1,5 @@
 //link opções de mapas
+
 const mapaAtual = 'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png';
 const mapaDark = 'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';
 const mapaSatelite = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
@@ -26,39 +27,54 @@ const sjrpCor = '#ff66c4';
 const sorocabaCor = '#7a004b';
 const valeDoParaibaCor = '#00687a';
 
+function alertBonito(){
+  Swal.fire({
+  icon: "error",
+  title: "Oops...",
+  iconColor: '#ff5757',
+  confirmButtonColor: '#ff5757',
+  theme: 'auto',
+  text: "Agência/Gerência não encontrada! Tente novamente.",
+  customClass: {
+    popup: 'popup-class',
+  }
+});
+
+}
+
 //polos vig
 
 function polo1VIG() {
   layers.GEXSP.setVisible(true);
 }
 function polo2VIG() {
-      layers.GEXGRU.setVisible(true);
-    layers.GEXVPB.setVisible(true);
+  layers.GEXGRU.setVisible(true);
+  layers.GEXVPB.setVisible(true);
 }
 function polo3VIG() {
-     layers.GEXABCD.setVisible(true);
-    layers.GEXSAN.setVisible(true);
+  layers.GEXABCD.setVisible(true);
+  layers.GEXSAN.setVisible(true);
 }
 function polo4VIG() {
-   layers.GEXCPN.setVisible(true);
-    layers.GEXJDI.setVisible(true);
-    layers.GEXOSA.setVisible(true);
+  layers.GEXCPN.setVisible(true);
+  layers.GEXJDI.setVisible(true);
+  layers.GEXOSA.setVisible(true);
 }
 
 function polo5VIG() {
   layers.GEXACT.setVisible(true);
-    layers.GEXBRU.setVisible(true);
-    layers.GEXMRI.setVisible(true);
-    layers.GEXPRP.setVisible(true);
-    layers.GEXSOR.setVisible(true);
+  layers.GEXBRU.setVisible(true);
+  layers.GEXMRI.setVisible(true);
+  layers.GEXPRP.setVisible(true);
+  layers.GEXSOR.setVisible(true);
 }
 
 function polo6VIG() {
   layers.GEXACQ.setVisible(true);
-    layers.GEXPIR.setVisible(true);
-    layers.GEXRBP.setVisible(true);
-    layers.GEXSBV.setVisible(true);
-    layers.GEXSJRP.setVisible(true);
+  layers.GEXPIR.setVisible(true);
+  layers.GEXRBP.setVisible(true);
+  layers.GEXSBV.setVisible(true);
+  layers.GEXSJRP.setVisible(true);
 }
 
 //Polos LIMP
@@ -623,7 +639,7 @@ document.getElementById('ListaGEX').addEventListener('change', function (event) 
     Object.values(layers).forEach(layer => layer.setVisible(true));
   }
 
-//LOG VIG
+  //LOG VIG
 
   else if (gexSelecionada === "VIG-1") {
     polo1VIG();
@@ -644,7 +660,7 @@ document.getElementById('ListaGEX').addEventListener('change', function (event) 
     polo6VIG();
   }
 
-//LOG LIMP
+  //LOG LIMP
 
   else if (gexSelecionada === "LIMP-1") {
     polo1LIMP();
@@ -666,6 +682,7 @@ document.getElementById('ListaGEX').addEventListener('change', function (event) 
 //pesquisar agencia
 document.getElementById('search').addEventListener('keydown', function (e) {
   if (e.key === 'Enter') {
+    e.preventDefault();
     const search = e.target.value.toLowerCase();
     if (search.length === 0) {
       // Retorna ao ponto e zoom originais
@@ -696,7 +713,7 @@ document.getElementById('search').addEventListener('keydown', function (e) {
         map.getView().fit(geometry.getExtent(), { maxZoom: 15, duration: 800 });
       }
     } else {
-      alert('Nenhuma Agência/Gerência encontrada com nome de ' + search);
+      alertBonito();
     }
   }
 });

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mapa Interativo</title>
   <link rel="stylesheet" href="webmap.css">
   <link rel="stylesheet" href="v9.2.4-package/ol.css">
-  <script src="v9.2.4-package/dist/ol.js"></script>
-</head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.23.0/dist/sweetalert2.min.css">
 
+  <script src="v9.2.4-package/dist/ol.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="webmap.js" defer></script>
+</head>
 <body>
   <div id="web-map" class="map">
     <div class="Lista">
@@ -48,13 +50,15 @@
           <option value="LIMP-2">LIMP-POLO-II</option>
           <option value="LIMP-3">LIMP-POLO-III</option>
           <option value="LIMP-4">LIMP-POLO-IV</option>
+        </optgroup>
       </select>
     </div>
     <input type="text" id="search" placeholder="Pesquisar...">
     <button id="voltar">Voltar</button>
   </div>
-  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.23.0/dist/sweetalert2.all.min.js"></script>
   <script src="webmap.js" defer></script>
+  
   <noscript>
     <img src="img/Mapa-APS.png" alt="Mapa das Agências e Gerências">
   </noscript>
