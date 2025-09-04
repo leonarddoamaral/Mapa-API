@@ -26,13 +26,16 @@ const saojoaoBoaVistaCor = '#74cc00';
 const sjrpCor = '#ff66c4';
 const sorocabaCor = '#7a004b';
 const valeDoParaibaCor = '#00687a';
+const popupCor = '#ff5757';
 
+
+//alerta 
 function alertaErro(){
   Swal.fire({
   icon: "error",
   title: "Oops...",
-  iconColor: '#ff5757',
-  confirmButtonColor: '#ff5757',
+  iconColor: popupCor,
+  confirmButtonColor: popupCor,
   width: '330px',
   heightAuto: true,
   theme: 'auto',
@@ -41,7 +44,6 @@ function alertaErro(){
     popup: 'popup-class',
   }
 });
-
 }
 
 //polos vig
@@ -524,17 +526,19 @@ const valeDoParaibaVector = new ol.layer.Vector({
   }
 });
 
-const baseLayer = new ol.layer.Tile({
-  source: new ol.source.XYZ({
-    url: mapaAtual,
-    attributions: '©OpenStreetMap, ©CartoDB'
-  })
-});
+
 
 const spContorno = new ol.layer.Vector({
   source: new ol.source.Vector({
     url: 'json/SP_RA.geojson',
     format: new ol.format.GeoJSON()
+  })
+});
+
+const baseLayer = new ol.layer.Tile({
+  source: new ol.source.XYZ({
+    url: mapaAtual,
+    attributions: '©OpenStreetMap, ©CartoDB'
   })
 });
 
@@ -585,8 +589,6 @@ const layers = {
   GEXSP: spVector,
 };
 
-
-
 // mouse em cima do vetor aumenta o ícone
 let lastFeature = null;
 map.on('pointermove', function (evt) {
@@ -598,7 +600,7 @@ map.on('pointermove', function (evt) {
   if (lastFeature) {
     lastFeature.setStyle(null);
     lastFeature = null;
-  }
+ }
 
   // Só aplica hover em features de camadas de pontos (ícones)
   map.forEachFeatureAtPixel(pixel, function (feature, layer) {
@@ -716,10 +718,12 @@ document.getElementById('search').addEventListener('keydown', function (e) {
       }
     } else {
       alertaErro();
+      if (document.fullscreenElement) {
+        document.exitFullscreen();
+      }
     }
   }
 });
-
 
 //botão para voltar ao zoom padrão
 voltar.addEventListener('click', function () {
