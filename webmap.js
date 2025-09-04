@@ -1,5 +1,4 @@
 //link opções de mapas
-
 const mapaAtual = 'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png';
 const mapaDark = 'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';
 const mapaSatelite = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
@@ -526,8 +525,6 @@ const valeDoParaibaVector = new ol.layer.Vector({
   }
 });
 
-
-
 const spContorno = new ol.layer.Vector({
   source: new ol.source.Vector({
     url: 'json/SP_RA.geojson',
@@ -726,6 +723,7 @@ document.getElementById('search').addEventListener('keydown', function (e) {
 });
 
 //botão para voltar ao zoom padrão
+
 voltar.addEventListener('click', function () {
   map.getView().setCenter(ol.proj.fromLonLat([-48.08410611081298, -22.670231220665254]));
   map.getView().setZoom(7.2);
@@ -733,4 +731,3 @@ voltar.addEventListener('click', function () {
   document.getElementById('ListaGEX').value = 'Todas';
   Object.values(layers).forEach(layer => layer.setVisible(true));
 });
-
