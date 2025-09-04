@@ -27,12 +27,14 @@ const sjrpCor = '#ff66c4';
 const sorocabaCor = '#7a004b';
 const valeDoParaibaCor = '#00687a';
 
-function alertBonito(){
+function alertaErro(){
   Swal.fire({
   icon: "error",
   title: "Oops...",
   iconColor: '#ff5757',
   confirmButtonColor: '#ff5757',
+  width: '330px',
+  heightAuto: true,
   theme: 'auto',
   text: "Agência/Gerência não encontrada! Tente novamente.",
   customClass: {
@@ -713,7 +715,7 @@ document.getElementById('search').addEventListener('keydown', function (e) {
         map.getView().fit(geometry.getExtent(), { maxZoom: 15, duration: 800 });
       }
     } else {
-      alertBonito();
+      alertaErro();
     }
   }
 });
