@@ -34,8 +34,6 @@ const sorocabaCor = '#7a004b';
 const valeDoParaibaCor = '#00687a';
 const popupCor = '#ff5757';
 
-
-
 //alerta 
 function alertaErro() {
   Swal.fire({
