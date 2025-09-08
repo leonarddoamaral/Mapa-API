@@ -236,3 +236,34 @@ input{
 
   } 
 }
+
+@media(max-width: 350px) {
+  select{
+    position: flex !important;
+    top: 23%;
+    right: 1em;
+    font-size: 12px;
+  }
+  input{
+    position: flex !important;
+    top: 1.2%;
+    right: 3.5em;
+    font-size: 12px;
+  }
+  #voltar{
+    position: flex !important;
+    top: 1.2%;
+    right: 16.7em;
+    font-size: 12px;
+  }
+      option {
+  padding: 9px;
+  font-size: 12px;
+
+}
+
+  optgroup{
+  padding: 9px;
+  font-size:small;
+}
+  }

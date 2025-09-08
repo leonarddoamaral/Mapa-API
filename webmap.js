@@ -744,3 +744,11 @@ voltar.addEventListener('click', function () {
   document.getElementById('ListaGEX').value = 'Todas';// limpa filtros 
   Object.values(layers).forEach(layer => layer.setVisible(true));
 });
+
+let width = window.innerWidth;
+if(width<350){
+  map.getView().setZoom(5.3)
+}
+else{
+  map.getView().setZoom(zoom)
+}
