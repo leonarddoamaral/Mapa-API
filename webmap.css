@@ -9,7 +9,6 @@
   --preto: #1a1a1a;
 }
 
-
 * {
   margin: 0;
 }
@@ -18,12 +17,14 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+
 }
 
 .map {
   height: 100vh;
   width: 100%;
 }
+
 .map:fullscreen {
         height: 100%;
       }
@@ -33,18 +34,18 @@ body {
         margin: 0;
 }
 
-
 select {
-  position: absolute;
+  position: fixed;
   top: 0.8%;
   left: 50px;
-  z-index: 9999;
+  z-index: 10;
   background-color: var(--azul-inss);
   padding: 5px;
   border-radius: 8px;
   color: var(--branco);
   font-family: Arial, Helvetica, sans-serif;
-
+  font-size: medium;
+  
 }
 
 select,
@@ -66,6 +67,7 @@ select::picker-icon {
   color: var(--branco);
   transition: 0.4s rotate;
 }
+
 select:open::picker-icon {
   rotate: 180deg;
 }
@@ -114,6 +116,7 @@ option:active {
   background-color: var(--pressionado);
   color: var(--branco);
 }
+
 optgroup{
   padding: 10px;
   background-color: var(--fundo-optgroup);
@@ -121,14 +124,13 @@ optgroup{
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
   border-radius: 8px;
-
 }
 
 input{
-  position: absolute;
+  position: fixed;
   top: 0.8%;
-  right: 40px;
-  z-index: 9999;
+  right: 3em;
+  z-index: 10;
   padding: 5px;
   border-radius: 8px;
   border: none;
@@ -149,10 +151,10 @@ input:focus {
 }
 
 #voltar{
-  position: absolute;
+  position:absolute;
   top: 0.8%;
-  right: 250px;
-  z-index: 9999;
+  right: 16.3em;
+  z-index: 10;
   padding: 5px;
   border-radius: 8px;
   border: none;
@@ -161,7 +163,9 @@ input:focus {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
   cursor: pointer;
+  
 }
+
 #voltar:hover{
   background-color: var(--select-claro);
 }
@@ -174,5 +178,61 @@ input:focus {
   font-size: 1.2em;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 18px;
-  z-index: 99999;
+  z-index: 11;
+}
+
+@media(max-width: 500px) {
+select{
+  position: flex !important;
+  top: 5%;
+  right: 1em;
+  font-size: small;
+  }
+
+  option {
+  padding: 9px;
+  font-size: small;
+
+}
+
+  optgroup{
+  padding: 9px;
+  font-size: medium;
+}
+
+input{
+  position: flex !important;
+  top: 0.8%;
+  right: 3.5em;
+  font-size: small;
+}
+#voltar{
+  position: flex !important;
+  top: 0.8%;
+  right: 17.5em;
+  font-size: small;
+  } 
+
+}
+
+@media(max-width: 380px) {
+select{
+  position: flex !important;
+  top: 6.4%;
+  right: 0.8em;
+  font-size: small;
+  }
+input{
+  position: flex !important;
+  top: 1.2%;
+  right: 3.5em;
+  font-size: small;
+}
+#voltar{
+  position: flex !important;
+  top: 1.2%;
+  right: 17.5em;
+  font-size: small;
+
+  } 
 }

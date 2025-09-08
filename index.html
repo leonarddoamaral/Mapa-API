@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mapa Interativo</title>
+  <title>Mapa das Agências e Gerências</title>
   <link rel="stylesheet" href="webmap.css">
   <link rel="stylesheet" href="v9.2.4-package/ol.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.23.0/dist/sweetalert2.min.css">
-
+  <link rel="icon" href="/img/localiza-abcd.png" type="image/x-icon">
   <script src="v9.2.4-package/dist/ol.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="webmap.js" defer></script>
@@ -16,7 +16,7 @@
 
 <body>
   <div id="web-map" class="map">
-    <div class="Lista">
+    <div class="Elementos">
       <select name="ListaGEX" id="ListaGEX">
         <optgroup label="GEX">
           <option value="Filtrar">Filtrar</option>
@@ -57,6 +57,7 @@
     </div>
     <input type="text" id="search" placeholder="Pesquisar...">
     <button id="voltar">Voltar</button>
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.23.0/dist/sweetalert2.all.min.js"></script>
   </div>
 
@@ -67,5 +68,4 @@
   </noscript>
   <div id="map-error" style="display:none;">Erro ao carregar o mapa. Verifique sua conexão com a rede interna.</div>
 </body>
-
 </html>

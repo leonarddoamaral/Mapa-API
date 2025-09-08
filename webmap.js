@@ -1,9 +1,16 @@
 //link opções de mapas
-const mapaAtual = 'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png';
-const mapaDark = 'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';
-const mapaSatelite = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}';
-const mapaBranco = 'https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
-const mapaColorido = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}';
+
+const mapasLayout = [
+  mapaQuaseColorido='https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+  mapaDark= 'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
+  mapaSatelite= 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+  mapaBranco= 'https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
+  mapaColorido= 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
+]
+
+ const mapaUsado = mapaQuaseColorido;
+
+ let zoom = 7.2; //zoom inicial do mapa
 
 //cores
 const branco = '#ffffff';
@@ -28,22 +35,24 @@ const valeDoParaibaCor = '#00687a';
 const popupCor = '#ff5757';
 
 
+
 //alerta 
-function alertaErro(){
+function alertaErro() {
   Swal.fire({
-  icon: "error",
-  title: "Oops...",
-  iconColor: popupCor,
-  confirmButtonColor: popupCor,
-  width: '330px',
-  heightAuto: true,
-  theme: 'auto',
-  text: "Agência/Gerência não encontrada! Tente novamente.",
-  customClass: {
-    popup: 'popup-class',
-  }
-});
+    icon: "error",
+    title: "Oops...",
+    iconColor: popupCor,
+    confirmButtonColor: popupCor,
+    width: '330px',
+    heightAuto: true,
+    theme: 'auto',
+    text: "Agência/Gerência não encontrada! Tente novamente.",
+    customClass: {
+      popup: 'popup-class',
+    }
+  });
 }
+
 
 //polos vig
 
@@ -534,10 +543,11 @@ const spContorno = new ol.layer.Vector({
 
 const baseLayer = new ol.layer.Tile({
   source: new ol.source.XYZ({
-    url: mapaAtual,
+    url: mapaUsado,
     attributions: '©OpenStreetMap, ©CartoDB'
   })
 });
+
 
 //vetores no mapa e outras camadas
 const map = new ol.Map({
@@ -546,7 +556,8 @@ const map = new ol.Map({
     new ol.control.Zoom(),
     new ol.control.Attribution(),
     new ol.control.FullScreen()
-  ],//botões na tela
+  ],//botões na tela( pdrões do OpenLayers)
+  
   layers: [baseLayer, spContorno,
     spVector, aracatubaVector,
     araraquaraVector, bauruVector,
@@ -560,11 +571,13 @@ const map = new ol.Map({
     sorocabaVector, valeDoParaibaVector],
   view: new ol.View({
     center: ol.proj.fromLonLat([-48.08410611081298, -22.670231220665254]),
-    zoom: 7.2
+    zoom: zoom
   })
 });
 
-//camadas de vetores
+
+
+//camadas de vetores para ser chamados nos filtros
 const layers = {
   GEXABCD: abcdVector,
   GEXACT: aracatubaVector,
@@ -593,13 +606,13 @@ map.on('pointermove', function (evt) {
   const hit = map.hasFeatureAtPixel(pixel);
   map.getTargetElement().style.cursor = hit ? 'pointer' : '';
 
-  // Restaura o último feature destacado
+  // Restaura o último vetor destacado
   if (lastFeature) {
     lastFeature.setStyle(null);
     lastFeature = null;
- }
+  }
 
-  // Só aplica hover em features de camadas de pontos (ícones)
+  // Só aplica hover em vetores de camadas de pontos (ícones)
   map.forEachFeatureAtPixel(pixel, function (feature, layer) {
     // Verifica se o layer tem estilo de ícone
     const styleFn = layer.getStyle ? layer.getStyle() : null;
@@ -607,7 +620,7 @@ map.on('pointermove', function (evt) {
       const originalStyle = styleFn(feature);
       if (originalStyle && originalStyle.getImage()) {
         const hoverStyle = originalStyle.clone();
-        hoverStyle.getImage().setScale(0.109); // aumenta o scale
+        hoverStyle.getImage().setScale(0.109); // aumenta a escala
         feature.setStyle(hoverStyle);
         lastFeature = feature;
       }
@@ -630,8 +643,8 @@ document.getElementById('ListaGEX').addEventListener('change', function (event) 
   const gexSelecionada = event.target.value;
 
   Object.values(layers).forEach(layer => layer.setVisible(false));
-
-  // Mostra apenas a camada selecionada
+//filtros
+  //por GEX
   if (layers[gexSelecionada]) {
     layers[gexSelecionada].setVisible(true);
   }
@@ -703,7 +716,7 @@ document.getElementById('search').addEventListener('keydown', function (e) {
         }
       });
     });
-    if (exactFound) {
+    if (exactFound) {//nome exatmente igual ou com parte da pesquisa no nome
       const geometry = exactFound.getGeometry();
       if (geometry) {
         map.getView().fit(geometry.getExtent(), { maxZoom: 15, duration: 800 });
@@ -713,7 +726,7 @@ document.getElementById('search').addEventListener('keydown', function (e) {
       if (geometry) {
         map.getView().fit(geometry.getExtent(), { maxZoom: 15, duration: 800 });
       }
-    } else {
+    } else {//caso erro mostra função do popup de erro e sai de tela cheia
       alertaErro();
       if (document.fullscreenElement) {
         document.exitFullscreen();
@@ -722,12 +735,12 @@ document.getElementById('search').addEventListener('keydown', function (e) {
   }
 });
 
-//botão para voltar ao zoom padrão
+//botão para voltar ao zoom padrão e limpar filtros
 
 voltar.addEventListener('click', function () {
   map.getView().setCenter(ol.proj.fromLonLat([-48.08410611081298, -22.670231220665254]));
   map.getView().setZoom(7.2);
-  document.getElementById('search').value = '';
-  document.getElementById('ListaGEX').value = 'Todas';
+  document.getElementById('search').value = '';//volta a barra do insert para vazia
+  document.getElementById('ListaGEX').value = 'Todas';// limpa filtros 
   Object.values(layers).forEach(layer => layer.setVisible(true));
 });
