@@ -5,7 +5,8 @@
       "type": "Feature",
       "properties": {
         "name": "GEX PIRACICABA",
-  "type": "GEX"
+        "type": "GEX",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +19,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ARARAS",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -31,7 +33,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS CAPIVARI",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -44,7 +47,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS LIMEIRA",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +61,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS PIRACICABA",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +75,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS RIO CLARO/SP",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -83,7 +89,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS TIETÊ",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +103,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ARTUR NOGUEIRA",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -109,7 +117,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS LARANJAL PAULISTA",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -122,7 +131,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS RIO DAS PEDRAS",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -135,7 +145,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PEDRO/SP",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -148,7 +159,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS CERQUILHO",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +173,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS CONCHAL",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=78caa14a%2Df202%2D4e27%2Da573%2Dc3f0e814e208"
       },
       "geometry": {
         "type": "Point",

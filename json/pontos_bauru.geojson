@@ -4,8 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "GEX BAURU",
-  "type": "GEX"
+        "name": "GEX BAURU",
+        "type": "GEX",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -17,8 +18,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS AVARÉ",
-  "type": "APS FIXA"
+        "name": "APS AVARÉ",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -30,8 +32,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS BAURU",
-  "type": "APS FIXA"
+        "name": "APS BAURU",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -43,8 +46,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS BOTUCATU",
-  "type": "APS FIXA"
+        "name": "APS BOTUCATU",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -56,8 +60,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS JAÚ",
-  "type": "APS FIXA"
+        "name": "APS JAÚ",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -69,8 +74,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS LENCÓIS PAULISTA",
-  "type": "APS FIXA"
+        "name": "APS LENCÓIS PAULISTA",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -82,8 +88,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS DOIS CÓRREGOS",
-  "type": "APS FIXA"
+        "name": "APS DOIS CÓRREGOS",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -95,8 +102,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS SÃO MANUEL",
-  "type": "APS FIXA"
+        "name": "APS SÃO MANUEL",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -108,8 +116,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS ITAÍ",
-  "type": "APS FIXA"
+        "name": "APS ITAÍ",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -121,8 +130,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS TAQUARITUBA",
-  "type": "APS FIXA"
+        "name": "APS TAQUARITUBA",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -134,8 +144,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS IGARAÇU DO TIETÊ",
-  "type": "APS FIXA"
+        "name": "APS IGARAÇU DO TIETÊ",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -147,8 +158,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS PEDERNEIRAS",
-  "type": "APS FIXA"
+        "name": "APS PEDERNEIRAS",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -160,8 +172,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS BARRA BONITA/SP",
-  "type": "APS FIXA"
+        "name": "APS BARRA BONITA/SP",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -173,8 +186,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS BARIRI",
-  "type": "APS FIXA"
+        "name": "APS BARIRI",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -186,8 +200,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS AGUDOS",
-  "type": "APS FIXA"
+        "name": "APS AGUDOS",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",
@@ -199,8 +214,9 @@
     {
       "type": "Feature",
       "properties": {
-  "name": "APS BROTAS",
-  "type": "APS FIXA"
+        "name": "APS BROTAS",
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=2ae74219%2D7ded%2D4107%2D9497%2Dbc050ee2afd8"
       },
       "geometry": {
         "type": "Point",

@@ -5,7 +5,8 @@
       "type": "Feature",
       "properties": {
         "name": "GEX SÃO JOÃO DA BOA VISTA",
-        "type": "GEX"
+        "type": "GEX",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +19,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ESPÍRITO SANTO DO PINHAL",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -31,7 +33,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ITAPIRA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -44,7 +47,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS LEME",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +61,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS MOCOCA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +75,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS MOGI-GUAÇU",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -83,7 +89,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS MOGI-MIRIM",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +103,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS PIRASSUNUNGA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -109,7 +117,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO JOÃO DA BOA VISTA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -122,7 +131,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO JOSÉ DO RIO PARDO",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -135,7 +145,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS PORTO FERREIRA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -148,7 +159,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SANTA CRUZ DAS PALMEIRAS",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -161,7 +173,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS CASA BRANCA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -174,7 +187,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS TAMBAÚ",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",
@@ -187,7 +201,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS AGUAÍ",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=9c7caaf5%2Daf52%2D4e3e%2D902a%2D03e5d80f4d9e"
       },
       "geometry": {
         "type": "Point",

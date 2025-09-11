@@ -5,7 +5,8 @@
       "type": "Feature",
       "properties": {
         "name": "GEX ARAÇATUBA",
-        "type": "GEX"
+        "type": "GEX",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +19,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ANDRADINA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
       },
       "geometry": {
         "type": "Point",
@@ -31,7 +33,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ARAÇATUBA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
       },
       "geometry": {
         "type": "Point",
@@ -44,8 +47,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS BIRIGÜI",
-        "type": "APS FIXA"
-       
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
       },
       "geometry": {
         "type": "Point",
@@ -58,7 +61,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS LINS",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
       },
       "geometry": {
         "type": "Point",
@@ -71,8 +75,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS PENÁPOLIS",
-        "type": "APS FIXA"
-        
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
       },
       "geometry": {
         "type": "Point",
@@ -85,7 +89,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ILHA SOLTEIRA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
       },
       "geometry": {
         "type": "Point",
@@ -98,7 +103,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS MIRANDÓPOLIS",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
       },
       "geometry": {
         "type": "Point",
@@ -111,8 +117,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS PEREIRA BARRETO",
-        "type": "APS FIXA"
-          },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -124,7 +131,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS GUARARAPES",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
       },
       "geometry": {
         "type": "Point",
@@ -137,8 +145,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS PROMISSÃO",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -150,8 +159,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS PIRAJUÍ",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -163,8 +173,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS VALPARAÍSO",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=874adabb%2Ddb6a%2D4dda%2D828d%2Df95e5218b008"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [

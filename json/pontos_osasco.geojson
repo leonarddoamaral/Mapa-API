@@ -5,7 +5,8 @@
       "type": "Feature",
       "properties": {
         "name": "GEX OSASCO",
-  "type": "GEX"
+        "type": "GEX",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=e99ad6f2%2Df3e0%2D4e52%2D9bd3%2Ddb32b1c73765"
       },
       "geometry": {
         "type": "Point",
@@ -18,7 +19,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS COTIA",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=e99ad6f2%2Df3e0%2D4e52%2D9bd3%2Ddb32b1c73765"
       },
       "geometry": {
         "type": "Point",
@@ -31,7 +33,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS OSASCO",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=e99ad6f2%2Df3e0%2D4e52%2D9bd3%2Ddb32b1c73765"
       },
       "geometry": {
         "type": "Point",
@@ -44,7 +47,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS BARUERI",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=e99ad6f2%2Df3e0%2D4e52%2D9bd3%2Ddb32b1c73765"
       },
       "geometry": {
         "type": "Point",
@@ -57,7 +61,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS SANTANA DE PARNAÍBA",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=e99ad6f2%2Df3e0%2D4e52%2D9bd3%2Ddb32b1c73765"
       },
       "geometry": {
         "type": "Point",
@@ -70,7 +75,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS CARAPICUÍBA",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=e99ad6f2%2Df3e0%2D4e52%2D9bd3%2Ddb32b1c73765"
       },
       "geometry": {
         "type": "Point",
@@ -83,7 +89,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS ITAPEVI",
-  "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=e99ad6f2%2Df3e0%2D4e52%2D9bd3%2Ddb32b1c73765"
       },
       "geometry": {
         "type": "Point",
@@ -96,7 +103,8 @@
       "type": "Feature",
       "properties": {
         "name": "APS VARGEM GRANDE PAULISTA",
-        "type": "APS FIXA"
+        "type": "APS FIXA",
+        "url":"https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=e99ad6f2%2Df3e0%2D4e52%2D9bd3%2Ddb32b1c73765"
       },
       "geometry": {
         "type": "Point",

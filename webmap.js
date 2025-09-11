@@ -33,6 +33,8 @@ const sjrpCor = '#ff66c4';
 const sorocabaCor = '#7a004b';
 const valeDoParaibaCor = '#00687a';
 const popupCor = '#ff5757';
+const certo = '#49c549ff';
+const parcial = '#ffbb00ff';
 
 //alerta 
 function alertaErro() {
@@ -50,6 +52,22 @@ function alertaErro() {
     }
   });
 }
+//função para trocar cor da borda do input de pesquisa
+
+function borda(cor){
+  pe = document.getElementById('search');
+      pe.style.border ="0.18em solid";
+      pe.style.borderColor = cor;
+      pe.style.transition = "border-color 0.2s ease-in-out";
+}
+
+function tiraBorda(){
+  pe = document.getElementById('search');
+      pe.style.border ="0.18em solid var(--azul-inss)";
+};
+//tempo que a borda fica colorida
+const tempoBorda = 6000//ms
+
 
 
 //polos vig
@@ -534,14 +552,14 @@ const valeDoParaibaVector = new ol.layer.Vector({
 
 const spContorno = new ol.layer.Vector({
   source: new ol.source.Vector({
-    url: 'json/SP_RA.geojson',
+    url: 'json/SP_RA.geojson',//contorno do estado de SP
     format: new ol.format.GeoJSON()
   })
 });
 
 const baseLayer = new ol.layer.Tile({
   source: new ol.source.XYZ({
-    url: mapaUsado,
+    url: mapaUsado,//tamplate mapa de fundo
     attributions: '©OpenStreetMap, ©CartoDB'
   })
 });
@@ -655,6 +673,7 @@ document.getElementById('ListaGEX').addEventListener('change', function (event) 
 
   else if (gexSelecionada === "VIG-1") {
     polo1VIG();
+    falsocarregamento();
   }
   else if (gexSelecionada === "VIG-2") {
     polo2VIG();
@@ -716,16 +735,25 @@ document.getElementById('search').addEventListener('keydown', function (e) {
     });
     if (exactFound) {//nome exatmente igual ou com parte da pesquisa no nome
       const geometry = exactFound.getGeometry();
+      borda(certo);
+      setTimeout(tiraBorda, tempoBorda)
       if (geometry) {
         map.getView().fit(geometry.getExtent(), { maxZoom: 15, duration: 800 });
       }
-    } else if (partialFound) {
+    }
+    else if (partialFound) {
       const geometry = partialFound.getGeometry();
+     borda(parcial);
+     setTimeout(tiraBorda, tempoBorda)
       if (geometry) {
         map.getView().fit(geometry.getExtent(), { maxZoom: 15, duration: 800 });
       }
-    } else {//caso erro mostra função do popup de erro e sai de tela cheia
+    }
+    else {//caso erro mostra função do popup de erro e sai de tela cheia
       alertaErro();
+      borda(popupCor);
+      setTimeout(tiraBorda, tempoBorda)
+            
       if (document.fullscreenElement) {
         document.exitFullscreen();
       }
@@ -734,7 +762,6 @@ document.getElementById('search').addEventListener('keydown', function (e) {
 });
 
 //botão para voltar ao zoom padrão e limpar filtros
-
 voltar.addEventListener('click', function () {
   map.getView().setCenter(ol.proj.fromLonLat([-48.08410611081298, -22.670231220665254]));
   map.getView().setZoom(7.2);
@@ -744,9 +771,9 @@ voltar.addEventListener('click', function () {
 });
 
 let width = window.innerWidth;
-if(width<350){
+if(width<350){//tela pequna muda zoom
   map.getView().setZoom(5.3)
 }
-else{
+else{// tela grande mantém zoom
   map.getView().setZoom(zoom)
 }

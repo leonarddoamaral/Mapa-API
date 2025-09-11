@@ -5,8 +5,9 @@
       "type": "Feature",
       "properties": {
     "name": "GEX SÃO PAULO",
-    "type": "GEX"
-          },
+    "type": "GEX",
+    "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -18,7 +19,8 @@
       "type": "Feature",
       "properties": {
         "name": "GEX SÃO PAULO - NORTE",
-        "type": "GEX"
+        "type": "GEX",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
       },
       "geometry": {
         "type": "Point",
@@ -31,8 +33,9 @@
       "type": "Feature",
       "properties": {
         "name": "GEX SÃO PAULO - SUL",
-        "type": "GEX"
-              },
+        "type": "GEX",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -44,8 +47,9 @@
       "type": "Feature",
       "properties": {
         "name": "GEX SÃO PAULO - LESTE",
-        "type": "GEX"
-              },
+        "type": "GEX",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -57,8 +61,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - BRÁS",
-        "type": "APS FIXA"
-             },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -70,8 +75,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - CENTRO",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -83,8 +89,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - GLICÉRIO",
-        "type": "APS FIXA"
-             },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -96,8 +103,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - ANHANGABAÚ",
-        "type": "APS FIXA"
-       },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -109,8 +117,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - MOOCA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -122,8 +131,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS EMBU-GUAÇU",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -135,8 +145,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS CAIEIRAS",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -148,8 +159,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS ATENDIMENTO ACORDOS INTERNACIONAIS SAO PAULO",
-        "type": "APSAI"
-        },
+        "type": "APSAI",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -161,8 +173,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS ITAPECERICA DA SERRA",
-        "type": "APS FIXA"
-        },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -174,8 +187,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - ÁGUA BRANCA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -187,8 +201,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - ÁGUA RASA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -200,8 +215,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - ALTO DE SANTANA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -213,8 +229,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - ARICANDUVA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -226,8 +243,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - ATALIBA LEONEL",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -239,8 +257,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - CIDADE DUTRA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -252,8 +271,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - ERMELINO MATARAZZO",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -265,8 +285,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - ITAQUERA",
-        "type": "APS FIXA"
-             },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -278,8 +299,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - JABAQUARA",
-        "type": "APS FIXA"
-             },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -291,8 +313,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - LAPA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -304,8 +327,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - NOSSA SENHORA DE SABARÁ",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -317,8 +341,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - PENHA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -330,8 +355,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - PINHEIROS",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -343,8 +369,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - SANTO AMARO",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -356,8 +383,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - SÃO MIGUEL PAULISTA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -369,8 +397,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - TATUAPÉ",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -382,8 +411,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - VILA MARIA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -395,8 +425,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS SÃO PAULO - VILA MARIANA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -408,8 +439,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS TABOÃO DA SERRA",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -421,8 +453,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS CEAB RECONHECIMENTO DE DIREITO DA SRI",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -434,8 +467,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS CEAB MANUTENÇÃO DA SR-I",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -447,8 +481,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS CEAB PARA ATENDIMENTO DE DEMANDAS JUDICIAIS DA SRI",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -460,8 +495,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS CEAP SR-I",
-        "type": "APS FIXA"
-              },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -473,8 +509,9 @@
       "type": "Feature",
       "properties": {
         "name": "APS ATENDIMENTO ACORDOS INTERNACIONAIS SÃO PAULO D",
-        "type": "APS FIXA"
-             },
+        "type": "APS FIXA",
+        "url": "https://inssgov.sharepoint.com/sites/MinhaLog-SP/Lists/Unidades%20por%20GEX/AllItems.aspx?viewid=b4cbb855%2D5ff4%2D4e77%2Dab79%2D528af3a4136a"
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [

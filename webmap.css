@@ -1,4 +1,4 @@
-:root{
+:root {
   --azul-inss: #0072bc;
   --select-claro: #38a5ee;
   --option-hover: #aedfff;
@@ -26,12 +26,12 @@ body {
 }
 
 .map:fullscreen {
-        height: 100%;
-      }
+  height: 100%;
+}
 
 .map:-webkit-full-screen {
-        height: 100%;
-        margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 select {
@@ -45,7 +45,7 @@ select {
   color: var(--branco);
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
-  
+
 }
 
 select,
@@ -54,11 +54,12 @@ select,
   border: none;
 }
 
-select:hover{
+select:hover {
   background-color: var(--select-claro);
- cursor: pointer;
+  cursor: pointer;
 }
-select:active{
+
+select:active {
   background-color: var(--pressionado);
   color: var(--branco);
 }
@@ -95,7 +96,7 @@ option:last-of-type {
   border-radius: 0 0 8px 8px;
 }
 
-option:not(option:last-of-type) { 
+option:not(option:last-of-type) {
   border-bottom: none;
 }
 
@@ -105,7 +106,7 @@ option:nth-of-type(odd) {
 
 option:hover,
 option:focus {
-  background:  var(--option-hover);
+  background: var(--option-hover);
   cursor: pointer;
   transition: transform 0.25s;
   transform: scale(1.05);
@@ -117,28 +118,30 @@ option:active {
   color: var(--branco);
 }
 
-optgroup{
+optgroup {
   padding: 10px;
   background-color: var(--fundo-optgroup);
-  color: var(--branco)  ;
+  color: var(--branco);
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
   border-radius: 8px;
 }
 
-input{
+input {
   position: fixed;
   top: 0.8%;
-  right: 3em;
+  right: 2.5em;
   z-index: 10;
   padding: 5px;
   border-radius: 8px;
-  border: none;
+  border: 0.18em solid var(--azul-inss);
   background-color: var(--azul-inss);
   color: var(--branco);
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
 }
+
+
 
 input::placeholder {
   color: var(--branco);
@@ -150,12 +153,12 @@ input:focus {
   background-color: var(--select-claro);
 }
 
-#voltar{
-  position:absolute;
+#voltar {
+  position: absolute;
   top: 0.8%;
-  right: 16.3em;
+  right: 16.1em;
   z-index: 10;
-  padding: 5px;
+  padding: 7px;
   border-radius: 8px;
   border: none;
   background-color: var(--azul-inss);
@@ -163,14 +166,14 @@ input:focus {
   font-family: Arial, Helvetica, sans-serif;
   font-size: medium;
   cursor: pointer;
-  
+
 }
 
-#voltar:hover{
+#voltar:hover {
   background-color: var(--select-claro);
 }
 
-#voltar:active{
+#voltar:active {
   background-color: var(--pressionado);
 }
 
@@ -182,88 +185,94 @@ input:focus {
 }
 
 @media(max-width: 500px) {
-select{
-  position: flex !important;
-  top: 5%;
-  right: 1em;
-  font-size: small;
+  select {
+    position: flex !important;
+    top: 5%;
+    right: 1em;
+    font-size: small;
   }
 
   option {
-  padding: 9px;
-  font-size: small;
+    padding: 9px;
+    font-size: small;
 
-}
+  }
 
-  optgroup{
-  padding: 9px;
-  font-size: medium;
-}
+  optgroup {
+    padding: 9px;
+    font-size: medium;
+  }
 
-input{
-  position: flex !important;
-  top: 0.8%;
-  right: 3.5em;
-  font-size: small;
-}
-#voltar{
-  position: flex !important;
-  top: 0.8%;
-  right: 17.5em;
-  font-size: small;
-  } 
+  input {
+    position: flex !important;
+    top: 0.8%;
+    right: 3.5em;
+    font-size: small;
+  }
+
+  #voltar {
+    position: flex !important;
+    top: 0.8%;
+    right: 17.5em;
+    font-size: small;
+  }
 
 }
 
 @media(max-width: 380px) {
-select{
-  position: flex !important;
-  top: 6.4%;
-  right: 0.8em;
-  font-size: small;
+  select {
+    position: flex !important;
+    top: 6.4%;
+    right: 0.8em;
+    font-size: small;
   }
-input{
-  position: flex !important;
-  top: 1.2%;
-  right: 3.5em;
-  font-size: small;
-}
-#voltar{
-  position: flex !important;
-  top: 1.2%;
-  right: 17.5em;
-  font-size: small;
 
-  } 
+  input {
+    position: flex !important;
+    top: 1.2%;
+    right: 3.5em;
+    font-size: small;
+  }
+
+  #voltar {
+    position: flex !important;
+    top: 1.2%;
+    right: 17.5em;
+    font-size: small;
+
+  }
 }
 
-@media(max-width: 350px) {
-  select{
+@media(max-width: 343px) {
+  select {
     position: flex !important;
     top: 23%;
     right: 1em;
     font-size: 12px;
   }
-  input{
+
+  input {
     position: flex !important;
     top: 1.2%;
     right: 3.5em;
     font-size: 12px;
   }
-  #voltar{
+
+  #voltar {
     position: flex !important;
     top: 1.2%;
     right: 16.7em;
     font-size: 12px;
   }
-      option {
-  padding: 9px;
-  font-size: 12px;
 
-}
+  option {
+    padding: 9px;
+    font-size: 12px;
 
-  optgroup{
-  padding: 9px;
-  font-size:small;
-}
   }
+
+  optgroup {
+    padding: 9px;
+    font-size: small;
+  }
+}
