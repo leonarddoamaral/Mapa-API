@@ -68,8 +68,6 @@ function tiraBorda(){
 //tempo que a borda fica colorida
 const tempoBorda = 6000//ms
 
-
-
 //polos vig
 
 function polo1VIG() {
@@ -660,7 +658,7 @@ document.getElementById('ListaGEX').addEventListener('change', function (event) 
 
   Object.values(layers).forEach(layer => layer.setVisible(false));
 //filtros
-  //por GEX
+  //porGEX 
   if (layers[gexSelecionada]) {
     layers[gexSelecionada].setVisible(true);
   }
@@ -673,7 +671,6 @@ document.getElementById('ListaGEX').addEventListener('change', function (event) 
 
   else if (gexSelecionada === "VIG-1") {
     polo1VIG();
-    falsocarregamento();
   }
   else if (gexSelecionada === "VIG-2") {
     polo2VIG();
@@ -774,6 +771,7 @@ let width = window.innerWidth;
 if(width<350){//tela pequna muda zoom
   map.getView().setZoom(5.3)
 }
+
 else{// tela grande mantém zoom
   map.getView().setZoom(zoom)
 }
