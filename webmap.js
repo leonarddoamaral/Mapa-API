@@ -8,9 +8,9 @@ const mapasLayout = [
   mapaColorido= 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
 ]
 
- const mapaUsado = mapaQuaseColorido;
+const mapaUsado = mapaQuaseColorido;
 
- let zoom = 7.2; //zoom inicial do mapa
+let zoom = 7.3; //zoom inicial do mapa
 
 //cores
 const branco = '#ffffff';
@@ -69,7 +69,6 @@ function tiraBorda(){
 const tempoBorda = 6000//ms
 
 //polos vig
-
 function polo1VIG() {
   layers.GEXSP.setVisible(true);
 }
@@ -86,7 +85,6 @@ function polo4VIG() {
   layers.GEXJDI.setVisible(true);
   layers.GEXOSA.setVisible(true);
 }
-
 function polo5VIG() {
   layers.GEXACT.setVisible(true);
   layers.GEXBRU.setVisible(true);
@@ -94,7 +92,6 @@ function polo5VIG() {
   layers.GEXPRP.setVisible(true);
   layers.GEXSOR.setVisible(true);
 }
-
 function polo6VIG() {
   layers.GEXACQ.setVisible(true);
   layers.GEXPIR.setVisible(true);
@@ -142,8 +139,8 @@ const spVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-sp.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -165,8 +162,8 @@ const aracatubaVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-aracatuba.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -188,8 +185,8 @@ const campinasVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-campinas.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -211,8 +208,8 @@ const guarulhosVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-guarulhos.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -234,8 +231,8 @@ const jundiaiVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-jundiai.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -258,8 +255,8 @@ const araraquaraVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-araraquara.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -281,8 +278,8 @@ const bauruVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-bauru.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -304,8 +301,8 @@ const mariliaVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-marilia.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -327,8 +324,8 @@ const osascoVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-osasco.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -350,8 +347,8 @@ const piracicabaVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-piracicaba.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -373,8 +370,8 @@ const presiprudenteVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-presi-prudente.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -396,8 +393,8 @@ const riberaopretoVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-rib-preto.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -419,8 +416,8 @@ const santosVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-santos.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -442,8 +439,8 @@ const abcdVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-abcd.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -465,8 +462,8 @@ const saojoaoBoaVistaVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-sao-joao-boavista.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -488,8 +485,8 @@ const sjrpVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-sjrp.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -511,8 +508,8 @@ const sorocabaVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-sorocaba.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -534,8 +531,8 @@ const valeDoParaibaVector = new ol.layer.Vector({
     return new ol.style.Style({
       image: new ol.style.Icon({
         src: "img/localiza-vale-do-paraiba.png",
-        scale: 0.1,
-        anchor: [0.5, 1]
+        scale: 0.115,
+        anchor: [0.5, 0.9]
       }),
       text: new ol.style.Text({
         text: feature.get('name'),
@@ -557,11 +554,10 @@ const spContorno = new ol.layer.Vector({
 
 const baseLayer = new ol.layer.Tile({
   source: new ol.source.XYZ({
-    url: mapaUsado,//tamplate mapa de fundo
+    url: mapaUsado,//template mapa de fundo
     attributions: '©OpenStreetMap, ©CartoDB'
   })
 });
-
 
 //vetores no mapa e outras camadas
 const map = new ol.Map({
@@ -584,12 +580,10 @@ const map = new ol.Map({
     sjrpVector,
     sorocabaVector, valeDoParaibaVector],
   view: new ol.View({
-    center: ol.proj.fromLonLat([-48.08410611081298, -22.670231220665254]),
+    center: ol.proj.fromLonLat([-48.08410611081298, -22.370231220665254]),
     zoom: zoom
   })
 });
-
-
 
 //camadas de vetores para ser chamados nos filtros
 const layers = {
@@ -634,7 +628,7 @@ map.on('pointermove', function (evt) {
       const originalStyle = styleFn(feature);
       if (originalStyle && originalStyle.getImage()) {
         const hoverStyle = originalStyle.clone();
-        hoverStyle.getImage().setScale(0.109); // aumenta a escala
+        hoverStyle.getImage().setScale(0.1258); // aumenta a escala
         feature.setStyle(hoverStyle);
         lastFeature = feature;
       }
@@ -656,7 +650,7 @@ map.on('singleclick', function (evt) {
 document.getElementById('ListaGEX').addEventListener('change', function (event) {
   const gexSelecionada = event.target.value;
 
-  Object.values(layers).forEach(layer => layer.setVisible(false));
+  Object.values(layers).forEach(layer => layer.setVisible(false)); 
 //filtros
   //porGEX 
   if (layers[gexSelecionada]) {
@@ -706,11 +700,11 @@ document.getElementById('ListaGEX').addEventListener('change', function (event) 
   spContorno.setVisible(true);
 });
 
-
 //pesquisar agencia
 document.getElementById('search').addEventListener('keydown', function (e) {
   if (e.key === 'Enter') {
     e.preventDefault();
+
     const search = e.target.value.toLowerCase();
     if (search.length === 0) {
       // Retorna ao ponto e zoom originais
@@ -725,7 +719,8 @@ document.getElementById('search').addEventListener('keydown', function (e) {
         const name = (feature.get('name') || '').toLowerCase();
         if (!exactFound && name === search) {
           exactFound = feature;
-        } else if (!partialFound && name.includes(search)) {
+        } 
+        else if (!partialFound && name.includes(search)) {
           partialFound = feature;
         }
       });
@@ -735,22 +730,21 @@ document.getElementById('search').addEventListener('keydown', function (e) {
       borda(certo);
       setTimeout(tiraBorda, tempoBorda)
       if (geometry) {
-        map.getView().fit(geometry.getExtent(), { maxZoom: 15, duration: 800 });
+        map.getView().fit(geometry.getExtent(), { maxZoom: 18, duration: 950});
       }
     }
     else if (partialFound) {
-      const geometry = partialFound.getGeometry();
+    const geometry = partialFound.getGeometry();
      borda(parcial);
      setTimeout(tiraBorda, tempoBorda)
       if (geometry) {
-        map.getView().fit(geometry.getExtent(), { maxZoom: 15, duration: 800 });
+        map.getView().fit(geometry.getExtent(), { maxZoom: 18, duration: 950 });
       }
     }
     else {//caso erro mostra função do popup de erro e sai de tela cheia
-      alertaErro();
       borda(popupCor);
       setTimeout(tiraBorda, tempoBorda)
-            
+      alertaErro();
       if (document.fullscreenElement) {
         document.exitFullscreen();
       }
@@ -760,18 +754,32 @@ document.getElementById('search').addEventListener('keydown', function (e) {
 
 //botão para voltar ao zoom padrão e limpar filtros
 voltar.addEventListener('click', function () {
-  map.getView().setCenter(ol.proj.fromLonLat([-48.08410611081298, -22.670231220665254]));
-  map.getView().setZoom(7.2);
+  map.getView().setCenter(ol.proj.fromLonLat([-48.08410611081298, -22.370231220665254]));
+  map.getView().setZoom(zoom);
   document.getElementById('search').value = '';//volta a barra do insert para vazia
   document.getElementById('ListaGEX').value = 'Todas';// limpa filtros 
-  Object.values(layers).forEach(layer => layer.setVisible(true));
+  Object.values(layers).forEach(layer => layer.setVisible(true));// torna os itens visiveis
 });
 
 let width = window.innerWidth;
-if(width<350){//tela pequna muda zoom
-  map.getView().setZoom(5.3)
+
+if(width<1100){
+  zoom = 7;
+  map.getView().setZoom(zoom);
+  map.getView().setCenter(ol.proj.fromLonLat([-48.88410611081298, -22.370231220665254]));
+}
+
+else if(width<800){//tela média muda zoom
+  zoom = 6.2;
+  map.getView().setZoom(zoom);
+}
+
+else if(width<350){//tela pequna muda zoom
+  zoom = 5.3;
+  map.getView().setZoom(zoom);
 }
 
 else{// tela grande mantém zoom
+  zoom = 7.3;
   map.getView().setZoom(zoom)
 }

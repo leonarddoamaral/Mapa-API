@@ -141,8 +141,6 @@ input {
   font-size: medium;
 }
 
-
-
 input::placeholder {
   color: var(--branco);
   opacity: 0.7;
