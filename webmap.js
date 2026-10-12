@@ -1,14 +1,12 @@
 //link opções de mapas
-
+//Mapas da basemaps estão pedindo chaves de api 
 const mapasLayout = [
-  mapaQuaseColorido='https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
-  mapaDark= 'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png',
-  mapaSatelite= 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-  mapaBranco= 'https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',
-  mapaColorido= 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'
+  mapaQuaseColorido='https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+  mapaColorido= 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+  mapaSatelite= 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 ]
-
-const mapaUsado = mapaQuaseColorido;
+let mapaAtual = 0;
+const mapaUsado = mapasLayout[mapaAtual];
 
 let zoom = 7.3; //zoom inicial do mapa
 
@@ -759,6 +757,14 @@ voltar.addEventListener('click', function () {
   document.getElementById('search').value = '';//volta a barra do insert para vazia
   document.getElementById('ListaGEX').value = 'Todas';// limpa filtros 
   Object.values(layers).forEach(layer => layer.setVisible(true));// torna os itens visiveis
+});
+
+trocarLayout.addEventListener('click', function () {
+  mapaAtual = (mapaAtual + 1)
+  mapaAtual = mapaAtual % mapasLayout.length;
+  const novoMapa = mapasLayout[mapaAtual];
+  baseLayer.getSource().setUrl(novoMapa);
+  
 });
 
 let width = window.innerWidth;
